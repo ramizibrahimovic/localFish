@@ -2087,3 +2087,10 @@ body.sidebar-opened {
 .pink-title {
   color: var(--color-accent-main); 
 }
+
+.text-column-number-container {
+  width:100%;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+}
