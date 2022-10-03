@@ -1,0 +1,474 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "166472154646881456": {
+      "type": "slideshow",
+      "blocks": {
+        "16647215469a2d4c0b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unbenannt-497.jpg",
+            "image_alignment": "100% 0%",
+            "caption": "Für eine gesunde Umwelt",
+            "title": "Unser lokales Angebot",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff"
+          }
+        },
+        "16647215469a2d4c0b-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Invest_Localfish.png",
+            "mobile_image": "shopify:\/\/shop_images\/Invest_Localfish_abec0f9c-e352-4320-bf92-f70281d894ae.png",
+            "image_alignment": "50% 50%",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff"
+          }
+        },
+        "16647215469a2d4c0b-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_alignment": "50% 50%",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "link": "",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "16647215469a2d4c0b-0",
+        "16647215469a2d4c0b-1",
+        "16647215469a2d4c0b-2"
+      ],
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "80vh",
+        "is_fullwidth": true,
+        "alignment": "horizontal-center align-content--vertical-middle",
+        "text_size": "xlarge",
+        "title_size": "h1",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "1664743793f3d50059": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<\/br><\/br><\/br><\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Die Kunden wünschen sich heute <span style=\"background:#F40176;color:white\">&nbspProdukte aus der Region <\/span><\/h1><\/br><\/br><\/br><\/br><\/br><\/br>",
+        "full_width": true
+      }
+    },
+    "16646420216a5ea379": {
+      "type": "rich-text",
+      "blocks": {
+        "1664642021e66904d6-0": {
+          "type": "title",
+          "settings": {
+            "title": "Mit lokalen Produkten mehr Geld verdienen",
+            "title_size": "h2"
+          }
+        },
+        "1664642021e66904d6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Kunden sind bereit für Premium Produkte aus der Region deutlich mehr zu bezahlen. Die Angst die Mehrkosten für die besseren Produkte würden auf der eigenen Tasche liegen bleiben sind falsch. Mehr Geld verdienen mit lokalen Produkten und weitere positive Nebeneffekte für die eigene Unternehmung gewinnen.<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "1664642021e66904d6-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "1664642021e66904d6-0",
+        "1664642021e66904d6-1",
+        "1664642021e66904d6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unbenannt-313.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "16646425203a38f403": {
+      "type": "rich-text",
+      "blocks": {
+        "1664642520a408dd7d-0": {
+          "type": "title",
+          "settings": {
+            "title": "Der Koch Europameister empfiehlt - eat LocalFisch",
+            "title_size": "h2"
+          }
+        },
+        "1664642520a408dd7d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Ich möchte die Herkunft beim Fisch genau so kennen wie beim Gemüse, Fleisch etc. Bisher war dies so nicht möglich. Mit Localfish habe ich einen Partner wo ich meinen Fisch selber aussuchen und abholen kann. Diese Story und frische schätzen meine Kunden und dahinter kann ich zu 100% stehen\"<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "1664642520a408dd7d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "1664642520a408dd7d-0",
+        "1664642520a408dd7d-1",
+        "1664642520a408dd7d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GB_27174.jpg",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "166474292391664439": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "16647429238ae1154f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Local_Fish_Shooting_2-162-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "Unsere Produkte sind radikal Lokal",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#f40176",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "16647429238ae1154f-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "16647438060f4cc76d": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "166474380620d35f03-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kretzer-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "Besonderes nur bei Localfish",
+            "subtitle": "Die Kretzer sind wieder da. Bisher galten sie als ausgestorben und aus den lokalen Gewässern gab es keine Möglichkeit mehr welche fangen. Wir bieten hier eine einzigartige lokale Lösung an. Kretzer an unterschiedlichen Standorten gibt es nur bei Localfish. Ob Lyss, Bischofszell oder Rafz. Wir liefern den Restaurants, auf Wunsch, Fisch innert wenigen Stunden nach dem Fang.",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "166474380620d35f03-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "1664735119afaebd85": {
+      "type": "rich-text",
+      "blocks": {
+        "25b9dce1-ee8b-421e-ab9a-ad40d503436a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Import ist ein zentrales Thema. Wir können die Augen davor nicht verschliessen!<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "1664735119f9e2eef5-0": {
+          "type": "title",
+          "settings": {
+            "title": "97% der Fische sind Vielflieger. Nicht unser Geschmack.",
+            "title_size": "h1"
+          }
+        },
+        "1664735119f9e2eef5-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "25b9dce1-ee8b-421e-ab9a-ad40d503436a",
+        "1664735119f9e2eef5-0",
+        "1664735119f9e2eef5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bild7-2.jpg",
+        "image_position": "top",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false
+      }
+    },
+    "166473311981a965e3": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "1664733119760b7508-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vlad-hilitanu-QqSIuvz94s8-unsplash-3.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "EINE LOKALE LÖSUNG FÜR EIN GLOBALES PROBLEM",
+            "title": "Unser Weg",
+            "subtitle": "Die Weltbevölkerung wächst und die Essgewohnheiten verändern sich. Zwar bilden sich überall neue Nischen aber qualitativ hochwertigen Produkte gehen immer mehr verloren. Hier setzten wir an und helfen diese auf nachhaltige und langfristige Weise wieder verfügbar zu machen.  Somit bieten wir Alternativen, damit der Endkunde wieder eine Wahl hat. Er soll nicht mehr nur auf Importe angewiesen sein, sondern auch heimische und nachhaltige Produkte geniessen können und somit auch die Umwelt schonen.",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "1664733119760b7508-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "16647331271eba7a93": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "16647331271632d34c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bild7-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Import ist ein zentrales Thema",
+            "title": "97% der Fische sind Vielflieger. Nicht unser Geschmack.",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "16647331271632d34c-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "1664657705cf9a2bea": {
+      "type": "text-columns-images",
+      "blocks": {
+        "1664657705b17540bd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0.0_a9060417-741d-40d0-8d0d-7e9bbe714fd2.png",
+            "title": "Antibiotika",
+            "caption": "Useful information about your shipping details",
+            "link": ""
+          }
+        },
+        "1664657705b17540bd-1": {
+          "type": "image",
+          "settings": {
+            "title": "Returns",
+            "caption": "Show how much time customers have for testing your products",
+            "link": ""
+          }
+        },
+        "1664657705b17540bd-2": {
+          "type": "image",
+          "settings": {
+            "title": "Pickup",
+            "caption": "Let your customers know about local pickup",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664657705b17540bd-0",
+        "1664657705b17540bd-1",
+        "1664657705b17540bd-2"
+      ],
+      "settings": {
+        "heading": "Text columns with image",
+        "subheading": "Share your best offers",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200
+      }
+    },
+    "1664656935fd89422a": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "1664656935562b7358-0": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Antibiotika",
+            "caption": "Useful information about your shipping details",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)"
+          }
+        },
+        "1664656935562b7358-1": {
+          "type": "image",
+          "settings": {
+            "icon": "time-limit",
+            "title": "Wassernutzung",
+            "caption": "Show how much time customers have for testing your products",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)"
+          }
+        },
+        "1664656935562b7358-2": {
+          "type": "image",
+          "settings": {
+            "icon": "store",
+            "title": "C02 Einsparungen pro Jahr",
+            "caption": "Let your customers know about local pickup",
+            "link": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "1664656935562b7358-0",
+        "1664656935562b7358-1",
+        "1664656935562b7358-2"
+      ],
+      "settings": {
+        "heading": "Unsere Story in Zahlen",
+        "subheading": "Mit wenig mehr erzeugen",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166472154646881456",
+    "1664743793f3d50059",
+    "16646420216a5ea379",
+    "16646425203a38f403",
+    "166474292391664439",
+    "16647438060f4cc76d",
+    "1664735119afaebd85",
+    "166473311981a965e3",
+    "16647331271eba7a93",
+    "1664657705cf9a2bea",
+    "1664656935fd89422a"
+  ]
+}
