@@ -2094,3 +2094,11 @@ body.sidebar-opened {
   align-items : center;
   justify-content: center;
 }
+
+.text-column-number-background {
+  background-image: url({{ 'background_image.jpeg' | asset_img_url: 'original' }});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
