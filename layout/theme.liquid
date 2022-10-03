@@ -95,7 +95,7 @@
   <script src="{{ 'component-product-form.js' | asset_url }}" defer></script>
 
   <main id="main" class="main-content" data-js-inert>
-    {%- render 'breadcrumb' -%}
+    {% comment %} {%- render 'breadcrumb' -%} {% endcomment %}
     {{ content_for_layout }}
   </main>
 

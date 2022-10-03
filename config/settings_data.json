@@ -229,7 +229,7 @@
     "product_icon_1_label": "",
     "favicon": "shopify:\/\/shop_images\/Radikal_Lokal_schrag.png",
     "cart_free_shipping": false,
-    "google_maps_api_key": "",
+    "google_maps_api_key": "AIzaSyDMSolqP6hMlAPDZxEt7dBAl2hixzIqOhs",
     "social_behance": "",
     "social_email": "",
     "social_facebook": "https:\/\/www.facebook.com\/shopify",
@@ -380,8 +380,8 @@
               "store_pickup_time": "Komm einfach vorbei...",
               "store_address": "<p>Schachenweg 24<br\/>3250 Lyss<\/p><p> <\/p><p><strong>Öffnungszeiten<br\/><\/strong>Mo-Fr: <br\/>10:00 - 12:00<br\/>13:30 - 16:00<\/p><p><br\/><strong>Verfügbare Produkte & Preise<\/strong><br\/>- Frische Egli Filet mit Haut:  CHF 7.00 pro 100gr<br\/>- Frische Egli Filet ohne Haut:  CHF 7.50 pro 100gr<br\/>- Ganze Egli auf Nachfrage und Vorbestellung<br\/><br\/><\/p><p><strong>Abholtipps:<\/strong><\/p><p>Bitte vorsichtshalber vorher anrufen<\/p><p> <\/p>",
               "store_closing_times": "<p>Closed<\/p><p>Closing at 5pm<\/p><p>Closing at 5pm<\/p><p>Closing at 5pm<\/p><p>Closing at 5pm<\/p><p>Closing at 5pm<\/p><p>Closing at 1pm<\/p>",
-              "store_map_latitude": "46.7834818",
-              "store_map_longitude": "23.5464733"
+              "store_map_latitude": "47.082408729129",
+              "store_map_longitude": "7.303119125952607"
             }
           },
           "dd3296db-12df-4eb4-92d4-7bcc636ce33e": {
