@@ -2119,3 +2119,7 @@ div#shopify-section-template--15837788307609__1664873666c3070b26 {
     grid-template-columns:none;
   }
 }
+
+.width100procent {
+  width: 100%;
+}
