@@ -97,13 +97,6 @@
         "color_hide_borders": true
       }
     },
-    "166466345284fc6fc1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr!<\/h1>",
-        "full_width": false
-      }
-    },
     "16646630033340040e": {
       "type": "rich-text",
       "disabled": true,
@@ -354,6 +347,43 @@
         "color_hide_borders": true
       }
     },
+    "1664824074bbe13030": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "1664824074c7a493a0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Local_Fish_Shooting_2-162-2_3978ef75-0ec6-4dd5-b70f-63c7ca3c4c23.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "Jetzt unsere Produkte in deiner Region selber abholen und geniessen",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "1664824074c7a493a0-0"
+      ],
+      "settings": {
+        "heading": "Media with text overlay",
+        "subheading": "Promote your best products",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
     "16646469941d27bf5e": {
       "type": "rich-text",
       "blocks": {
@@ -519,6 +549,86 @@
         "image_size": "fullwidth"
       }
     },
+    "166487367770ef35ab": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "166487367611d8df50-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unbenannt-8-2-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#f40176",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "166487367611d8df50-0"
+      ],
+      "settings": {
+        "heading": "Media with text overlay",
+        "subheading": "Promote your best products",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "1664873666c3070b26": {
+      "type": "text-columns-numbers",
+      "blocks": {
+        "1664873666624839d3-0": {
+          "type": "image",
+          "settings": {
+            "number": "99.5 %",
+            "title": "Wassernutzung",
+            "caption": "Wir schützen unsere Ressourcen und verwenden unglaubliche 99.5 % unseres Wassers wieder. Dies sind Einsparungen von mehreren Millionen Litern pro Jahr.",
+            "link": ""
+          }
+        },
+        "0770acb3-8604-4107-b434-72ceeb0d2d71": {
+          "type": "image",
+          "settings": {
+            "number": "18'000 Tonnen",
+            "title": "C02 Einsparung",
+            "caption": "Mit lokalen Produkten tun wir nicht nur unserem Geschmacksinn was gutes sondern auch der Umwelt. Unsere Fische gehören zu den 3% die in der Schweiz gefangen werden.",
+            "link": ""
+          }
+        },
+        "76c5ec4b-de00-45e2-9e2b-7c804d24691e": {
+          "type": "image",
+          "settings": {
+            "number": "0.0 % Antibiotika",
+            "title": "Wir benutzen keine Zusatzstoffe",
+            "caption": "Unser Wasser wird auf natürliche Weise gereinigt und dies komplett ohne Zusatzstoffe. Gesunde Fische benötigen kein Antibiotika",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664873666624839d3-0",
+        "0770acb3-8604-4107-b434-72ceeb0d2d71",
+        "76c5ec4b-de00-45e2-9e2b-7c804d24691e"
+      ],
+      "settings": {
+        "heading": "Unsere Zahlen zu unserer einzigartigen Story",
+        "subheading": "Wir erzeugen mit wenig sehr viel und schützen Mensch, Tier und Umwelt",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2"
+      }
+    },
     "16553621956de397b6": {
       "type": "testimonials",
       "blocks": {
@@ -612,30 +722,11 @@
         "button_style": "solid"
       }
     },
-    "1664577755c848bd04": {
-      "type": "text-columns-icons",
-      "blocks": {
-        "1664577754355cfabf-0": {
-          "type": "image",
-          "settings": {
-            "icon": "delivery",
-            "title": "Shipping",
-            "caption": "Useful information about your shipping details",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "1664577754355cfabf-0"
-      ],
+    "166466345284fc6fc1": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "Text columns with icon",
-        "subheading": "Share your best offers",
-        "style": "slider",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200
+        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr!<\/h1>",
+        "full_width": false
       }
     },
     "1655121489db318f96": {
@@ -921,20 +1012,22 @@
   "order": [
     "1653646142d6a7c886",
     "165407625224b5d2af",
-    "166466345284fc6fc1",
     "16646630033340040e",
     "1664663305d0063cad",
     "166466345049cc5bef",
     "1664646417c86669de",
     "16646463698bbec9f4",
     "1664646483cf0e45e2",
+    "1664824074bbe13030",
     "16646469941d27bf5e",
     "16646519418074bd9d",
     "166465195588f1aa51",
     "1664654933b30c8632",
+    "166487367770ef35ab",
+    "1664873666c3070b26",
     "16553621956de397b6",
     "16551074833cdf378e",
-    "1664577755c848bd04",
+    "166466345284fc6fc1",
     "1655121489db318f96",
     "165406738229739f4d",
     "16551304148266b5a5",

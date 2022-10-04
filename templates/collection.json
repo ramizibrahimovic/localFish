@@ -2,10 +2,200 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
+      }
+    },
+    "166482506880e8947c": {
+      "type": "rich-text",
+      "blocks": {
+        "166482506832076e21-0": {
+          "type": "title",
+          "settings": {
+            "title": "Bereits in dieser Phase sind unsere Produkte an mehreren Standorten verfügbar für euch - Online Store coming soon",
+            "title_size": "h2"
+          }
+        },
+        "166482506832076e21-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "166482506832076e21-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "166482506832076e21-0",
+        "166482506832076e21-1",
+        "166482506832076e21-2"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "1664824502f5fda87c": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "887806ad-fe6b-4a79-bebc-7d74bfd5a3d2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unbenannt-455-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Lyss, Bischofszell und aus Rafz",
+            "title": "Ganze Fische",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        },
+        "1664824502a191d5a3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Local_Fish_Shooting_2-162-2_3978ef75-0ec6-4dd5-b70f-63c7ca3c4c23.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Aus der Region",
+            "title": "Unsere Filet",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        },
+        "f3271693-18d5-4688-a210-aa0e07916271": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Local_Fish_Shooting_2-277-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Veredelt",
+            "title": "Unsere Chnusperli",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        },
+        "5b9c3e6d-5e9d-4f44-aaaf-10e310370c1f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kretzer-2.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Besonderheiten",
+            "title": "Kretzer aus der Region",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "887806ad-fe6b-4a79-bebc-7d74bfd5a3d2",
+        "1664824502a191d5a3-0",
+        "f3271693-18d5-4688-a210-aa0e07916271",
+        "5b9c3e6d-5e9d-4f44-aaaf-10e310370c1f"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-2 grid-lap-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h1",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid"
+      }
+    },
+    "16648245912520a43e": {
+      "type": "stores-map",
+      "blocks": {
+        "1664824591e625784c-0": {
+          "type": "store",
+          "settings": {
+            "store_name": "My Store",
+            "store_address": "<p>123 John Doe Street<br\/>Your Town, YT 12345<\/p><p> <\/p><p><strong>Store Hours<br\/><\/strong>Sun: Closed<br\/>Mon-Fri: 9:00 - 17:00<br\/>Sat: 10:00 - 13:00<\/p>",
+            "image_aspect_ratio": "1.33333",
+            "store_map_latitude": "46.7834818",
+            "store_map_longitude": "23.5464733"
+          }
+        },
+        "4bd7f557-0d20-4c43-b20e-3dc48e5bd224": {
+          "type": "store",
+          "settings": {
+            "store_name": "My Store",
+            "store_address": "<p>123 John Doe Street<br\/>Your Town, YT 12345<\/p><p> <\/p><p><strong>Store Hours<br\/><\/strong>Sun: Closed<br\/>Mon-Fri: 9:00 - 17:00<br\/>Sat: 10:00 - 13:00<\/p>",
+            "image_aspect_ratio": "1.33333",
+            "store_map_latitude": "46.7834818",
+            "store_map_longitude": "23.5464733"
+          }
+        },
+        "3694240c-8a5c-4422-9ed6-875c9bbe9ef4": {
+          "type": "store",
+          "settings": {
+            "store_name": "My Store",
+            "store_address": "<p>123 John Doe Street<br\/>Your Town, YT 12345<\/p><p> <\/p><p><strong>Store Hours<br\/><\/strong>Sun: Closed<br\/>Mon-Fri: 9:00 - 17:00<br\/>Sat: 10:00 - 13:00<\/p>",
+            "image_aspect_ratio": "1.33333",
+            "store_map_latitude": "46.7834818",
+            "store_map_longitude": "23.5464733"
+          }
+        }
+      },
+      "block_order": [
+        "1664824591e625784c-0",
+        "4bd7f557-0d20-4c43-b20e-3dc48e5bd224",
+        "3694240c-8a5c-4422-9ed6-875c9bbe9ef4"
+      ],
+      "settings": {
+        "heading": "Find Us",
+        "subheading": "Check our stores on a map",
+        "map_enable": true,
+        "map_zoom": 16,
+        "map_style": "standard"
+      }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "blocks": {
         "price": {
           "type": "price",
@@ -25,11 +215,19 @@
         "title",
         "quick_buy"
       ],
-      "settings": {}
+      "settings": {
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 24,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
     }
   },
   "order": [
     "banner",
+    "166482506880e8947c",
+    "1664824502f5fda87c",
+    "16648245912520a43e",
     "product-grid"
   ]
 }

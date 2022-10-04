@@ -2095,10 +2095,16 @@ body.sidebar-opened {
   justify-content: center;
 }
 
-.text-column-number-background {
+/* .text-column-number-background {
   background-image: url({{ 'background_image.jpeg' | asset_img_url: 'original' }});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #cccccc;
+} */
+
+div#shopify-section-template--15837788307609__1664873666c3070b26 {
+  background-image: url("https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1664922195~exp=1664922795~hmac=8093ae8134c4d518181eb7aa3269c31213507714df44acab4a8b2eb510f5e56e");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
