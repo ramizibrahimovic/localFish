@@ -1,4 +1,4 @@
-<div class="container--large container--vertical-space remove-empty-space text-column-number-background">
+<div class="container--large container--vertical-space remove-empty-space text-column-number-background-container">
   
   {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading -%}
 
@@ -22,13 +22,13 @@
     >
   {%- endif -%}
 
-  <div class="grid {% if section.settings.style == 'slider' %} grid--slider {% else %} grid--layout {% endif %} {{ section.settings.layout }}">
+  <div class="grid {% if section.settings.style == 'slider' %} grid--slider {% else %} grid--layout {% endif %} {{ section.settings.layout }} no-grid-columns">
   
     {%- for block in section.blocks -%}
 
-      <div class="element--body-bgc element--no-border text-align--center element--no-radius js-slider-item" {{ block.shopify_attributes }}>
+      <div class="element--body-bgc element--no-border text-align--center element--no-radius js-slider-item text-column-number-card-container" {{ block.shopify_attributes }}>
 
-        <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} text-column-number-container" id="element-{{ block.id }}" style="margin:auto">
+        <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} text-column-number-container" id="element-{{ block.id }}" style="margin:auto;background: transparent">
           {%- unless block.settings.number == blank -%}
             {%- if block.settings.link != blank -%}
               <a href="{{ block.settings.link }}">
@@ -42,7 +42,7 @@
           {%- endunless -%}
         </div>
 
-        <div class="gutter--regular spacing--small remove-empty-space">
+        <div class="gutter--regular spacing--small remove-empty-space text-column-number-text-container">
 
           {%- unless block.settings.title == blank -%}
             <div>
