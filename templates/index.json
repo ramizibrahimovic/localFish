@@ -349,6 +349,7 @@
     },
     "1664824074bbe13030": {
       "type": "media-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "1664824074c7a493a0-0": {
           "type": "image",
@@ -432,6 +433,7 @@
     },
     "16646519418074bd9d": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16646519411755340b-0": {
           "type": "title",
@@ -475,6 +477,60 @@
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": false
+      }
+    },
+    "16551074833cdf378e": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "9a84e64a-a681-486f-b99a-8ca91285e42f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Veredelte Produkte",
+            "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false
+          }
+        },
+        "16551074836af554cd-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        }
+      },
+      "block_order": [
+        "9a84e64a-a681-486f-b99a-8ca91285e42f",
+        "16551074836af554cd-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "small",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "regular",
+        "button_style": "solid"
       }
     },
     "166465195588f1aa51": {
@@ -551,6 +607,7 @@
     },
     "166487367770ef35ab": {
       "type": "media-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "166487367611d8df50-0": {
           "type": "image",
@@ -629,101 +686,9 @@
         "layout": "grid-3 grid-lap-2"
       }
     },
-    "16553621956de397b6": {
-      "type": "testimonials",
-      "blocks": {
-        "16553621951e01132c-0": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "René Suter",
-            "author_title": "Gastgeber Golfclub Hittnau",
-            "quote": "<p>Wir haben unsere Produkte ausgewechselt, da für uns nur noch Localfish Qualität und Geschmack auf den Tisch kommt. Mit diesen Produkten können wir unsere Gäste begeistern.<\/p>",
-            "image": "shopify:\/\/shop_images\/ReneSuter.png"
-          }
-        },
-        "16553621951e01132c-1": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Diana Küng",
-            "author_title": "Winterthur",
-            "quote": "<p>Ich war Fisch gegenüber immer sehr skeptisch eingestellt, da dieser für mich nach Fisch riecht. Seit meiner Kindheit konnte ich dies nach einer Fischvergiftung nicht mehr anschauen geschweige essen. Ich war sehr überrascht wie gut der Geschmack war und wie fest das Fleisch. In dieser Weise ist sogar Fisch wieder etwas für mich.<\/p>",
-            "image": "shopify:\/\/shop_images\/diana_kung.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "16553621951e01132c-0",
-        "16553621951e01132c-1"
-      ],
-      "settings": {
-        "heading": "Zufriedene LocalFish Kunden",
-        "subheading": "",
-        "quote_font": "playfair_display_n4",
-        "quote_font_size": 34,
-        "quote_line_height": 1.1,
-        "content_alignment": "center",
-        "color_background_main": "#000000",
-        "color_text_main": "#ffffff",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true
-      }
-    },
-    "16551074833cdf378e": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "9a84e64a-a681-486f-b99a-8ca91285e42f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Veredelte Produkte",
-            "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
-            "subtitle": "",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false
-          }
-        },
-        "16551074836af554cd-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true
-          }
-        }
-      },
-      "block_order": [
-        "9a84e64a-a681-486f-b99a-8ca91285e42f",
-        "16551074836af554cd-1"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "regular",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "60%",
-        "caption_size": "small",
-        "title_size": "h3",
-        "subtitle_size": "regular",
-        "button_size": "regular",
-        "button_style": "solid"
-      }
-    },
     "1655121489db318f96": {
       "type": "shop-the-look",
+      "disabled": true,
       "blocks": {
         "1655121489da0fd0f2-0": {
           "type": "price",
@@ -763,6 +728,7 @@
     },
     "165406738229739f4d": {
       "type": "promotion-cards",
+      "disabled": true,
       "blocks": {
         "073cf35e-7647-4a69-aa57-2b56e9b42637": {
           "type": "card",
@@ -857,6 +823,114 @@
         "button_style": "outline"
       }
     },
+    "1657094048f07fb2a2": {
+      "type": "marquee",
+      "disabled": true,
+      "blocks": {
+        "16570940482780d791-0": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<p>Write a big bold statement about your brand!<\/p>"
+          }
+        },
+        "17541091-3633-48b6-97e0-ca55f3bf4a9f": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "<p>Introduce your latest promotions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16570940482780d791-0",
+        "17541091-3633-48b6-97e0-ca55f3bf4a9f"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 20,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "color_background_main": "#f4ecf4",
+        "color_text_main": "#000000"
+      }
+    },
+    "166466345284fc6fc1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr! Lediglich 3% werden in der Schweiz gefangen<\/h1>",
+        "full_width": false
+      }
+    },
+    "881922a2-95b9-4a07-a1e7-de0c6421c795": {
+      "type": "text-columns-images-bottom",
+      "blocks": {
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0": {
+          "type": "image",
+          "settings": {
+            "number": "20km",
+            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion.png",
+            "title": "Localish Ansatz",
+            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1": {
+          "type": "image",
+          "settings": {
+            "number": "2500km",
+            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion.png",
+            "title": "Import (alte Welt)",
+            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0",
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1"
+      ],
+      "settings": {
+        "heading": "Lokale Produktion schützt und hat einen enormen Einfluss",
+        "subheading": "Wir gehen noch einen Schritt weiter uns produzieren sogar lokal für die Region. Einzigartige Verbesserung des ökoligischen Fussabdrucks",
+        "style": "grid",
+        "layout": "grid-2 grid-lap-1"
+      }
+    },
+    "5b577ca5-ea9c-4046-bf16-c29de7fab8f9": {
+      "type": "text-columns-images-bottom",
+      "disabled": true,
+      "blocks": {
+        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-0": {
+          "type": "image",
+          "settings": {
+            "number": "20km",
+            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion.png",
+            "title": "Shipping",
+            "caption": "Useful information about your shipping details",
+            "link": ""
+          }
+        },
+        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-1": {
+          "type": "image",
+          "settings": {
+            "number": "2500km",
+            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion_dc0e1329-3700-443c-89c2-a7d03c4e635d.png",
+            "title": "Returns",
+            "caption": "Show how much time customers have for testing your products",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-0",
+        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-1"
+      ],
+      "settings": {
+        "heading": "Text columns with image at bottom",
+        "subheading": "Share your best offers",
+        "style": "grid",
+        "layout": "grid-2 grid-lap-1"
+      }
+    },
     "16551127939786a43a": {
       "type": "blog-posts",
       "blocks": {
@@ -895,73 +969,43 @@
         "show_view_all": true
       }
     },
-    "1657094048f07fb2a2": {
-      "type": "marquee",
+    "16553621956de397b6": {
+      "type": "testimonials",
       "blocks": {
-        "16570940482780d791-0": {
-          "type": "text",
+        "16553621951e01132c-0": {
+          "type": "testimonial",
           "settings": {
-            "marquee_text": "<p>Write a big bold statement about your brand!<\/p>"
+            "author_name": "René Suter",
+            "author_title": "Gastgeber Golfclub Hittnau",
+            "quote": "<p>Wir haben unsere Produkte ausgewechselt, da für uns nur noch Localfish Qualität und Geschmack auf den Tisch kommt. Mit diesen Produkten können wir unsere Gäste begeistern.<\/p>",
+            "image": "shopify:\/\/shop_images\/ReneSuter.png"
           }
         },
-        "17541091-3633-48b6-97e0-ca55f3bf4a9f": {
-          "type": "text",
+        "16553621951e01132c-1": {
+          "type": "testimonial",
           "settings": {
-            "marquee_text": "<p>Introduce your latest promotions.<\/p>"
+            "author_name": "Diana Küng",
+            "author_title": "Winterthur",
+            "quote": "<p>Ich war Fisch gegenüber immer sehr skeptisch eingestellt, da dieser für mich nach Fisch riecht. Seit meiner Kindheit konnte ich dies nach einer Fischvergiftung nicht mehr anschauen geschweige essen. Ich war sehr überrascht wie gut der Geschmack war und wie fest das Fleisch. In dieser Weise ist sogar Fisch wieder etwas für mich.<\/p>",
+            "image": "shopify:\/\/shop_images\/diana_kung.jpg"
           }
         }
       },
       "block_order": [
-        "16570940482780d791-0",
-        "17541091-3633-48b6-97e0-ca55f3bf4a9f"
+        "16553621951e01132c-0",
+        "16553621951e01132c-1"
       ],
       "settings": {
-        "scroll_direction": "left",
-        "speed": 20,
-        "pause_on_hover": true,
-        "remove_top_margin": false,
-        "color_background_main": "#f4ecf4",
-        "color_text_main": "#000000"
-      }
-    },
-    "166466345284fc6fc1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr! Lediglich 3% werden in der Schweiz gefangen<\/h1>",
-        "full_width": false
-      }
-    },
-    "881922a2-95b9-4a07-a1e7-de0c6421c795": {
-      "type": "text-columns-images-bottom",
-      "blocks": {
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion.png",
-            "title": "Localish Ansatz",
-            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
-            "link": "shopify:\/\/collections"
-          }
-        },
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion.png",
-            "title": "Import (alte Welt)",
-            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0",
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1"
-      ],
-      "settings": {
-        "heading": "Lokale Produktion schützt und hat einen enormen Einfluss",
-        "subheading": "Wir gehen noch einen Schritt weiter uns produzieren sogar lokal für die Region. Einzigartige Verbesserung des ökoligischen Fussabdrucks",
-        "style": "grid",
-        "layout": "grid-2 grid-lap-1"
+        "heading": "Zufriedene LocalFish Kunden",
+        "subheading": "",
+        "quote_font": "playfair_display_n4",
+        "quote_font_size": 34,
+        "quote_line_height": 1.1,
+        "content_alignment": "center",
+        "color_background_main": "#000000",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
       }
     }
   },
@@ -977,18 +1021,19 @@
     "1664824074bbe13030",
     "16646469941d27bf5e",
     "16646519418074bd9d",
+    "16551074833cdf378e",
     "166465195588f1aa51",
     "1664654933b30c8632",
     "166487367770ef35ab",
     "1664873666c3070b26",
-    "16553621956de397b6",
-    "16551074833cdf378e",
     "1655121489db318f96",
     "165406738229739f4d",
     "165650871288cb3c80",
-    "16551127939786a43a",
     "1657094048f07fb2a2",
     "166466345284fc6fc1",
-    "881922a2-95b9-4a07-a1e7-de0c6421c795"
+    "881922a2-95b9-4a07-a1e7-de0c6421c795",
+    "5b577ca5-ea9c-4046-bf16-c29de7fab8f9",
+    "16551127939786a43a",
+    "16553621956de397b6"
   ]
 }
