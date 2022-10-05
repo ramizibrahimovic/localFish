@@ -722,13 +722,6 @@
         "button_style": "solid"
       }
     },
-    "166466345284fc6fc1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr!<\/h1>",
-        "full_width": false
-      }
-    },
     "1655121489db318f96": {
       "type": "shop-the-look",
       "blocks": {
@@ -848,74 +841,8 @@
         "button_style": "outline"
       }
     },
-    "16551304148266b5a5": {
-      "type": "rich-text",
-      "blocks": {
-        "1655130414988486bd-0": {
-          "type": "title",
-          "settings": {
-            "title": "About us",
-            "title_size": "h2"
-          }
-        },
-        "1655130414988486bd-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Write a big, bold statement about your brand. Catch your visitors attention by using some additional images with your products or store.<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "1655130414988486bd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "1655130414988486bd-0",
-        "1655130414988486bd-1",
-        "1655130414988486bd-2"
-      ],
-      "settings": {
-        "image_position": "top",
-        "height": "regular",
-        "image_crop": false,
-        "is_fullwidth": true,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "#e1e0d7",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
-      }
-    },
     "165650871288cb3c80": {
       "type": "media-with-text-overlay",
-      "blocks": {
-        "1656508712d3848f85-0": {
-          "type": "image",
-          "settings": {
-            "image_alignment": "50% 50%",
-            "video_url": "\/\/cdn.shopify.com\/s\/files\/1\/0266\/9543\/4315\/files\/Share_your_brand_story_by_adding_a_video_to_your_store.mp4?3663",
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "",
-            "link": "",
-            "button_label": "Show more",
-            "color_background_main": "#000000",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": true
-          }
-        }
-      },
-      "block_order": [
-        "1656508712d3848f85-0"
-      ],
       "settings": {
         "heading": "",
         "subheading": "",
@@ -997,15 +924,44 @@
         "color_text_main": "#000000"
       }
     },
-    "1655112847aaa4cc50": {
-      "type": "newsletter",
+    "166466345284fc6fc1": {
+      "type": "custom-liquid",
       "settings": {
-        "show_icon": true,
-        "title": "Sign up for our newsletter",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "color_background_main": "#000000",
-        "color_text_main": "#ffffff",
-        "color_borders_main": "rgba(0,0,0,0)"
+        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr! Lediglich 3% werden in der Schweiz gefangen<\/h1>",
+        "full_width": false
+      }
+    },
+    "881922a2-95b9-4a07-a1e7-de0c6421c795": {
+      "type": "text-columns-images-bottom",
+      "blocks": {
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion.png",
+            "title": "Localish Ansatz",
+            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion.png",
+            "title": "Import (alte Welt)",
+            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0",
+        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1"
+      ],
+      "settings": {
+        "heading": "Lokale Produktion schützt und hat einen enormen Einfluss",
+        "subheading": "Wir gehen noch einen Schritt weiter uns produzieren sogar lokal für die Region. Einzigartige Verbesserung des ökoligischen Fussabdrucks",
+        "style": "grid",
+        "layout": "grid-2 grid-lap-1"
       }
     }
   },
@@ -1027,13 +983,12 @@
     "1664873666c3070b26",
     "16553621956de397b6",
     "16551074833cdf378e",
-    "166466345284fc6fc1",
     "1655121489db318f96",
     "165406738229739f4d",
-    "16551304148266b5a5",
     "165650871288cb3c80",
     "16551127939786a43a",
     "1657094048f07fb2a2",
-    "1655112847aaa4cc50"
+    "166466345284fc6fc1",
+    "881922a2-95b9-4a07-a1e7-de0c6421c795"
   ]
 }
