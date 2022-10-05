@@ -26,8 +26,21 @@
     {%- for block in section.blocks -%}
 
       <div class="element--body-bgc element--no-border text-align--center element--no-radius js-slider-item" {{ block.shopify_attributes }}>
+        <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} text-column-number-container" id="element-{{ block.id }}" style="margin:auto;background: transparent">
+          {%- unless block.settings.number == blank -%}
+            {%- if block.settings.link != blank -%}
+              <a href="{{ block.settings.link }}">
+            {%- endif -%}
+              <h1>{{block.settings.number }}</h1>
+            {%- if block.settings.link != blank -%}
+              </a>
+            {%- endif -%}
+          {%- else -%}
+            <h1>Big number</h1>
+          {%- endunless -%}
+        </div>
+        
         <div class="gutter--regular spacing--small remove-empty-space">
-
           {%- unless block.settings.title == blank -%}
             <div>
               <h3 class="h5" style="margin-bottom:0">
@@ -47,7 +60,7 @@
           {%- endunless -%}
 
           {%- unless block.settings.caption == blank -%}
-            <div class="text-size--small text-color--opacity">{{ block.settings.caption | escape }}</div>
+            <div class="text-size--regular text-color--opacity">{{ block.settings.caption | escape }}</div>
           {%- endunless -%}
 
         </div>
@@ -138,6 +151,11 @@
       "type": "image",
       "name": "t:sections.text-columns-with-icons.blocks.icon.name",
       "settings": [
+        {
+          "type":"text",
+          "id":"number",
+          "label":"Enter number here"
+        },
         {
           "id": "image",
           "type": "image_picker",
