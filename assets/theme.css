@@ -845,7 +845,7 @@ p {
 }
 
 .shopify-section.can-be-fullwidth:last-child .container--fullwidth {
-  margin-bottom: calc(var(--container-vertical-space) * -2);
+  margin-bottom: calc(var(--container-vertical-space) * -1);
 }
 .mount-slideshow:last-child .css-slider--bottom-navigation .css-slider-navigation-container {
   margin-bottom: -0.75rem;

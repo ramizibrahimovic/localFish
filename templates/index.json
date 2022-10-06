@@ -242,12 +242,13 @@
         "1664646417c1c3c2fa-2"
       ],
       "settings": {
-        "image_position": "top no-image",
+        "image": "shopify:\/\/shop_images\/Radikal_Lokal_schrag.png",
+        "image_position": "right",
         "height": "regular",
         "image_crop": true,
         "is_fullwidth": false,
         "remove_margin": false,
-        "text_alignment": "horizontal-center",
+        "text_alignment": "horizontal-left",
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
@@ -479,60 +480,6 @@
         "color_hide_borders": false
       }
     },
-    "16551074833cdf378e": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "9a84e64a-a681-486f-b99a-8ca91285e42f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Veredelte Produkte",
-            "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
-            "subtitle": "",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false
-          }
-        },
-        "16551074836af554cd-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true
-          }
-        }
-      },
-      "block_order": [
-        "9a84e64a-a681-486f-b99a-8ca91285e42f",
-        "16551074836af554cd-1"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "regular",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "60%",
-        "caption_size": "small",
-        "title_size": "h3",
-        "subtitle_size": "regular",
-        "button_size": "regular",
-        "button_style": "solid"
-      }
-    },
     "166465195588f1aa51": {
       "type": "content-toggles",
       "blocks": {
@@ -596,6 +543,49 @@
         "form_title": "Bei Fragen zu unseren Produkten"
       }
     },
+    "1664873666c3070b26": {
+      "type": "text-columns-numbers",
+      "blocks": {
+        "1664873666624839d3-0": {
+          "type": "image",
+          "settings": {
+            "number": "99.5 %",
+            "title": "Wassernutzung",
+            "caption": "Wir schützen unsere Ressourcen und verwenden unglaubliche 99.5 % unseres Wassers wieder. Dies sind Einsparungen von mehreren Millionen Litern pro Jahr.",
+            "link": ""
+          }
+        },
+        "0770acb3-8604-4107-b434-72ceeb0d2d71": {
+          "type": "image",
+          "settings": {
+            "number": "18'000 Tonnen",
+            "title": "C02 Einsparung",
+            "caption": "Mit lokalen Produkten tun wir nicht nur unserem Geschmacksinn was gutes sondern auch der Umwelt. Unsere Fische gehören zu den 3% die in der Schweiz gefangen werden.",
+            "link": ""
+          }
+        },
+        "76c5ec4b-de00-45e2-9e2b-7c804d24691e": {
+          "type": "image",
+          "settings": {
+            "number": "0.0 % Antibiotika",
+            "title": "Wir benutzen keine Zusatzstoffe",
+            "caption": "Unser Wasser wird auf natürliche Weise gereinigt und dies komplett ohne Zusatzstoffe. Gesunde Fische benötigen kein Antibiotika",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664873666624839d3-0",
+        "0770acb3-8604-4107-b434-72ceeb0d2d71",
+        "76c5ec4b-de00-45e2-9e2b-7c804d24691e"
+      ],
+      "settings": {
+        "heading": "Unsere Zahlen zu unserer einzigartigen Story",
+        "subheading": "Wir erzeugen mit wenig sehr viel und schützen Mensch, Tier und Umwelt",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2"
+      }
+    },
     "1664654933b30c8632": {
       "type": "image",
       "settings": {
@@ -643,47 +633,58 @@
         "button_style": "solid"
       }
     },
-    "1664873666c3070b26": {
-      "type": "text-columns-numbers",
+    "16551074833cdf378e": {
+      "type": "media-with-text-overlay",
       "blocks": {
-        "1664873666624839d3-0": {
+        "9a84e64a-a681-486f-b99a-8ca91285e42f": {
           "type": "image",
           "settings": {
-            "number": "99.5 %",
-            "title": "Wassernutzung",
-            "caption": "Wir schützen unsere Ressourcen und verwenden unglaubliche 99.5 % unseres Wassers wieder. Dies sind Einsparungen von mehreren Millionen Litern pro Jahr.",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Veredelte Produkte",
+            "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false
           }
         },
-        "0770acb3-8604-4107-b434-72ceeb0d2d71": {
+        "16551074836af554cd-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "number": "18'000 Tonnen",
-            "title": "C02 Einsparung",
-            "caption": "Mit lokalen Produkten tun wir nicht nur unserem Geschmacksinn was gutes sondern auch der Umwelt. Unsere Fische gehören zu den 3% die in der Schweiz gefangen werden.",
-            "link": ""
-          }
-        },
-        "76c5ec4b-de00-45e2-9e2b-7c804d24691e": {
-          "type": "image",
-          "settings": {
-            "number": "0.0 % Antibiotika",
-            "title": "Wir benutzen keine Zusatzstoffe",
-            "caption": "Unser Wasser wird auf natürliche Weise gereinigt und dies komplett ohne Zusatzstoffe. Gesunde Fische benötigen kein Antibiotika",
-            "link": ""
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
           }
         }
       },
       "block_order": [
-        "1664873666624839d3-0",
-        "0770acb3-8604-4107-b434-72ceeb0d2d71",
-        "76c5ec4b-de00-45e2-9e2b-7c804d24691e"
+        "9a84e64a-a681-486f-b99a-8ca91285e42f",
+        "16551074836af554cd-1"
       ],
       "settings": {
-        "heading": "Unsere Zahlen zu unserer einzigartigen Story",
-        "subheading": "Wir erzeugen mit wenig sehr viel und schützen Mensch, Tier und Umwelt",
-        "style": "grid",
-        "layout": "grid-3 grid-lap-2"
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "small",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "regular",
+        "button_style": "solid"
       }
     },
     "1655121489db318f96": {
@@ -856,7 +857,7 @@
     "166466345284fc6fc1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr! Lediglich 3% werden in der Schweiz gefangen<\/h1>",
+        "custom_liquid": "<\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr! Lediglich 3% werden in der Schweiz gefangen<\/h1>",
         "full_width": false
       }
     },
@@ -891,42 +892,6 @@
       "settings": {
         "heading": "Lokale Produktion schützt und hat einen enormen Einfluss",
         "subheading": "Wir gehen noch einen Schritt weiter uns produzieren sogar lokal für die Region. Einzigartige Verbesserung des ökoligischen Fussabdrucks",
-        "style": "grid",
-        "layout": "grid-2 grid-lap-1"
-      }
-    },
-    "5b577ca5-ea9c-4046-bf16-c29de7fab8f9": {
-      "type": "text-columns-images-bottom",
-      "disabled": true,
-      "blocks": {
-        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-0": {
-          "type": "image",
-          "settings": {
-            "number": "20km",
-            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion.png",
-            "title": "Shipping",
-            "caption": "Useful information about your shipping details",
-            "link": ""
-          }
-        },
-        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-1": {
-          "type": "image",
-          "settings": {
-            "number": "2500km",
-            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion_dc0e1329-3700-443c-89c2-a7d03c4e635d.png",
-            "title": "Returns",
-            "caption": "Show how much time customers have for testing your products",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-0",
-        "template--15837788307609__5b577ca5-ea9c-4046-bf16-c29de7fab8f9-166498704288310280-1"
-      ],
-      "settings": {
-        "heading": "Text columns with image at bottom",
-        "subheading": "Share your best offers",
         "style": "grid",
         "layout": "grid-2 grid-lap-1"
       }
@@ -1021,18 +986,17 @@
     "1664824074bbe13030",
     "16646469941d27bf5e",
     "16646519418074bd9d",
-    "16551074833cdf378e",
     "166465195588f1aa51",
+    "1664873666c3070b26",
     "1664654933b30c8632",
     "166487367770ef35ab",
-    "1664873666c3070b26",
+    "16551074833cdf378e",
     "1655121489db318f96",
     "165406738229739f4d",
     "165650871288cb3c80",
     "1657094048f07fb2a2",
     "166466345284fc6fc1",
     "881922a2-95b9-4a07-a1e7-de0c6421c795",
-    "5b577ca5-ea9c-4046-bf16-c29de7fab8f9",
     "16551127939786a43a",
     "16553621956de397b6"
   ]

@@ -12,7 +12,9 @@
   rich-text">
 
     <div class="rich-text__container rich-text__container--image-{{ section.settings.image_position }} {% if section.settings.is_fullwidth %} rich-text__container--fullwidth {% endif %}">
-
+    <div class="rich-text-tab">
+      <h1>hello</h1>
+    </div>
       {%- unless section.settings.image_position contains "no-image" -%}
         <div class="rich-text__image 
           {% unless section.settings.image_crop %} rich-text__image--fit {% endunless %} 
@@ -79,7 +81,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.rich-text.name",
+  "name": "Rich text with tabs",
   "class": "can-be-fullwidth",
   "max_blocks": 9,
   "settings": [
@@ -316,7 +318,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.rich-text.name",
+      "name": "Rich text with tabs",
       "blocks": [
         { "type": "title" },
         { "type": "text" },
