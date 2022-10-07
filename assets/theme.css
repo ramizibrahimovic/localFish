@@ -2125,3 +2125,16 @@ div#shopify-section-template--15837788307609__1664873666c3070b26 {
 .width100procent {
   width: 100%;
 }
+
+.full-width-correction {
+  max-width: 1360px;
+  margin: 0 auto;
+  margin-bottom: calc(var(--gutter-large) * .8);
+  width: 100%;
+  padding-left: var(--gutter-container);
+}
+
+.no-border-radius {
+  border-radius: none !important;
+  overflow:visible !important;
+}

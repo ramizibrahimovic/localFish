@@ -1,6 +1,6 @@
 {%- unless heading == blank and subheading == blank and button == blank -%}
 
-  <div class="section-heading gutter-bottom--page">
+  <div class="section-heading gutter-bottom--page {% if section.settings.full_width %} full-width-correction {% endif %}">
     
     {%- unless heading == blank and subheading == blank -%}
 

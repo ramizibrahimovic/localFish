@@ -1,99 +1,97 @@
-<div id="section-{{ section.id }}" class="container--large container--vertical-space remove-empty-space">
+<div id="section-{{ section.id }}" class="container--large container--vertical-space remove-empty-space    {% if section.settings.full_width %} container--fullwidth {% endif %}">
 
   {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading -%}
 
   {%- if section.blocks.size > 0 -%}
-    <div class="grid grid--layout {{ section.settings.layout }}">
-      
-      {%- for block in section.blocks -%}
+  <div class="grid grid--layout {{ section.settings.layout }}">
+    
+    {%- for block in section.blocks -%}
 
-      <div id="element-{{ block.id }}" class="card element--height-{{ section.settings.height }} align-content align-content--{{ section.settings.alignment }}" {{ block.shopify_attributes }}>
+    <div id="element-{{ block.id }}" class="card element--height-{{ section.settings.height }} align-content align-content--{{ section.settings.alignment }} {% if section.settings.full_width %} no-border-radius {% endif %}" {{ block.shopify_attributes }}>
+      <div class="card__text gutter--large spacing--large remove-empty-space">
+        {%- unless block.settings.caption == blank -%}
+          <span class="text-size--{{ section.settings.caption_size }}">{{ block.settings.caption | escape }}</span>
+        {%- endunless -%}
 
-        <div class="card__text gutter--large spacing--large remove-empty-space">
-          {%- unless block.settings.caption == blank -%}
-            <span class="text-size--{{ section.settings.caption_size }}">{{ block.settings.caption | escape }}</span>
-          {%- endunless -%}
-
-          {%- unless block.settings.title == blank -%}
-            <h3 class="{{ section.settings.title_size }}">
-              
-              {%- if block.settings.button_label == blank and block.settings.link != blank -%}
-                <a href="{{ block.settings.link }}">
-              {%- endif -%}
-              
-                <span class="text-animation--underline underline-mobile">{{ block.settings.title | escape }}</span>
-              
-              {%- if block.settings.button_label == blank and block.settings.link != blank -%}
-                </a>
-              {%- endif -%}
-
-            </h3>
-          {%- endunless -%}
-
-          {%- unless block.settings.subtitle == blank -%}
-            <span class="text-size--{{ section.settings.subtitle_size }}">{{ block.settings.subtitle | escape }}</span>
-          {%- endunless -%}
-
-          {%- if block.settings.button_label != blank -%}
-            <div class="increased-spacing">
-              <a href="{{ block.settings.link | escape }}" class="button button--{{ section.settings.button_size }} button--{{ section.settings.button_style }}">{{ block.settings.button_label | escape }}</a>
-            </div>
-          {%- endif -%}
-        </div>
-
-        <div class="card__image card__image--background {% if block.settings.color_background_main != "rgba(0,0,0,0)" %} card__image--with-overlay {% endif %}" aria-hidden="true">
-
-          {%- unless block.settings.video_url != blank -%}
+        {%- unless block.settings.title == blank -%}
+          <h3 class="{{ section.settings.title_size }}">
             
-            {%- liquid 
-              unless block.settings.image == blank
-                if section.settings.layout contains 'grid-3'
-                  assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 33vw, 420px"'
-                elsif section.settings.layout contains 'grid-2'
-                  assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 50vw, 640px"'
-                else
-                  assign sizes = 'sizes="(max-width: 1360px) calc(100vw - 20px), 1280px"'
-                endif
-                render 'lazy-image', image: block.settings.image, sizes: sizes, type: 'background', alt: block.settings.title, image_alignment: block.settings.image_alignment, id: block.id
-              else
-                echo 'image' | placeholder_svg_tag
-              endunless
-            -%}
+            {%- if block.settings.button_label == blank and block.settings.link != blank -%}
+              <a href="{{ block.settings.link }}">
+            {%- endif -%}
+            
+              <span class="text-animation--underline underline-mobile">{{ block.settings.title | escape }}</span>
+            
+            {%- if block.settings.button_label == blank and block.settings.link != blank -%}
+              </a>
+            {%- endif -%}
 
-          {%- else -%}
+          </h3>
+        {%- endunless -%}
 
-          {{ 'component-video-background.css' | asset_url | stylesheet_tag }}
+        {%- unless block.settings.subtitle == blank -%}
+          <span class="text-size--{{ section.settings.subtitle_size }}">{{ block.settings.subtitle | escape }}</span>
+        {%- endunless -%}
+
+        {%- if block.settings.button_label != blank -%}
+          <div class="increased-spacing">
+            <a href="{{ block.settings.link | escape }}" class="button button--{{ section.settings.button_size }} button--{{ section.settings.button_style }}">{{ block.settings.button_label | escape }}</a>
+          </div>
+        {%- endif -%}
+      </div>
+      <div class="card__image card__image--background {% if block.settings.color_background_main != "rgba(0,0,0,0)" %} card__image--with-overlay {% endif %}" aria-hidden="true">
+
+        {%- unless block.settings.video_url != blank -%}
           
-            <video-background id="video-background-{{ section.id }}" class="video-background" style="display:block">
-              <div class="video-text__container">
-                <div class="video-text__background" {% unless block.settings.video_url == blank %} data-src="{{ block.settings.video_url }}" {% endunless %}>
-                  {%- unless block.settings.image == blank -%}
-                    <span class="video-text__image" aria-hidden="true">
-                      {%- liquid
-                        assign sizes = 'sizes="(max-width: 1023px) calc(100vw - 60px), 84vw"'
-                        render 'lazy-image', image: block.settings.image, type: 'background', sizes: sizes, id: block.id
-                      -%}
-                    </span>
-                  {%- else -%}
-                    <span class="video-text__image onboarding-svg onboarding-background">{{ 'image' | placeholder_svg_tag }}</span>
-                  {%- endunless -%}
-                </div>
-              </div>
-            </video-background>
+          {%- liquid 
+            unless block.settings.image == blank
+              if section.settings.layout contains 'grid-3'
+                assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 33vw, 420px"'
+              elsif section.settings.layout contains 'grid-2'
+                assign sizes = 'sizes="(max-width: 767px) calc(100vw - 20px), (max-width: 1360px) 50vw, 640px"'
+              else
+                assign sizes = 'sizes="(max-width: 1360px) calc(100vw - 20px), 1280px"'
+              endif
+              render 'lazy-image', image: block.settings.image, sizes: sizes, type: 'background', alt: block.settings.title, image_alignment: block.settings.image_alignment, id: block.id
+            else
+              echo 'image' | placeholder_svg_tag
+            endunless
+          -%}
 
-            <script src="{{ 'component-video.js' | asset_url }}" defer></script>
+        {%- else -%}
 
-          {%- endunless -%}
-
-
-        </div>
+        {{ 'component-video-background.css' | asset_url | stylesheet_tag }}
         
-        {%- render 'custom-colors', id: block.id, text: block.settings.color_text_main, background: block.settings.color_background_main, hide_borders: block.settings.color_hide_borders -%}
+          <video-background id="video-background-{{ section.id }}" class="video-background" style="display:block">
+            <div class="video-text__container">
+              <div class="video-text__background" {% unless block.settings.video_url == blank %} data-src="{{ block.settings.video_url }}" {% endunless %}>
+                {%- unless block.settings.image == blank -%}
+                  <span class="video-text__image" aria-hidden="true">
+                    {%- liquid
+                      assign sizes = 'sizes="(max-width: 1023px) calc(100vw - 60px), 84vw"'
+                      render 'lazy-image', image: block.settings.image, type: 'background', sizes: sizes, id: block.id
+                    -%}
+                  </span>
+                {%- else -%}
+                  <span class="video-text__image onboarding-svg onboarding-background">{{ 'image' | placeholder_svg_tag }}</span>
+                {%- endunless -%}
+              </div>
+            </div>
+          </video-background>
+
+          <script src="{{ 'component-video.js' | asset_url }}" defer></script>
+
+        {%- endunless -%}
+
 
       </div>
+      
+      {%- render 'custom-colors', id: block.id, text: block.settings.color_text_main, background: block.settings.color_background_main, hide_borders: block.settings.color_hide_borders -%}
 
-      {%- endfor %}
     </div>
+
+    {%- endfor %}
+  </div>
   {%- endif -%}
 </div>
 
@@ -314,6 +312,12 @@
         }
       ],
       "default": "solid"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "t:sections.image.fullwidth",
+      "default": false
     }
   ],
   "blocks": [
