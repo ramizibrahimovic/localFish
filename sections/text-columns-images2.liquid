@@ -6,7 +6,7 @@
     #shopify-section-{{ section.id }} .card__icon, 
     #shopify-section-{{ section.id }} .card__icon figure, 
     #shopify-section-{{ section.id }} .card__icon img {
-      border-radius: 0px;
+      border-radius: {{ section.settings.border_radius }}px;
     }
   </style>
 
@@ -26,6 +26,7 @@
     {%- for block in section.blocks -%}
 
       <div class="element--body-bgc element--no-border text-align--center element--no-radius js-slider-item" {{ block.shopify_attributes }}>
+
         <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} text-column-number-container" id="element-{{ block.id }}" style="margin:auto;background: transparent">
           {%- unless block.settings.number == blank -%}
             {%- if block.settings.link != blank -%}
@@ -39,8 +40,9 @@
             <h1>Big number</h1>
           {%- endunless -%}
         </div>
-        
+
         <div class="gutter--regular spacing--small remove-empty-space">
+
           {%- unless block.settings.title == blank -%}
             <div>
               <h3 class="h5" style="margin-bottom:0">
@@ -65,33 +67,28 @@
 
         </div>
 
-        <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} width100procent" id="element-{{ block.id }}">
-        
+        <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} card__icon-size--1_5-xxlarge" id="element-{{ block.id }}">
           {%- unless block.settings.image == blank -%}
             {%- if block.settings.link != blank -%}
               <a href="{{ block.settings.link }}">
             {%- endif -%}
-              <img src="{{ block.settings.image | image_url: width: 590, crop: 'center' }}">
               <figure class="lazy-image lazy-image--animation" data-ratio style="padding-top: 100%">
                 <img 
-                  src="{{ block.settings.image | image_url: width: 120, height: 120, crop: 'center' }}" alt="{{ block.settings.image.alt | escape }}"
+                  src="{{ block.settings.image | image_url: width: 120, height: 180, crop: 'center' }}" alt="{{ block.settings.image.alt | escape }}"
                   srcset="
-                    {{ block.settings.image | image_url: width: 120, height: 120, crop: 'center' }} 120w
-                    {% if block.settings.image.width >= 240 %} ,{{ block.settings.image | image_url: width: 240, height: 240, crop: 'center' }} 240w, {% endif %} 
-                    {% if block.settings.image.width >= 360 %} ,{{ block.settings.image | image_url: width: 360, height: 360, crop: 'center' }} 360w, {% endif %} 
-                    {% if block.settings.image.width >= 480 %} ,{{ block.settings.image | image_url: width: 480, height: 480, crop: 'center' }} 480w, {% endif %} 
-                    {% if block.settings.image.width >= 640 %} ,{{ block.settings.image | image_url: width: 640, height: 640, crop: 'center' }} 640w, {% endif %} 
+                    {{ block.settings.image | image_url: width: 120, height: 180, crop: 'center' }} 120w
+                    {% if block.settings.image.width >= 240 %} ,{{ block.settings.image | image_url: width: 240, height: 360, crop: 'center' }} 240w, {% endif %} 
+                    {% if block.settings.image.width >= 360 %} ,{{ block.settings.image | image_url: width: 360, height: 540, crop: 'center' }} 360w, {% endif %} 
+                    {% if block.settings.image.width >= 480 %} ,{{ block.settings.image | image_url: width: 480, height: 720, crop: 'center' }} 480w, {% endif %} 
+                    {% if block.settings.image.width >= 640 %} ,{{ block.settings.image | image_url: width: 640, height: 960, crop: 'center' }} 640w, {% endif %} 
                   "
                   loading="lazy"
-                  sizes="{%- if section.settings.layout contains 'grid-4' -%}
-                    (max-width: 474px) 120px, 160px
-                  {%- else -%}
-                    (max-width: 474px) 120px, (max-width: 1023px) 160px, 220px
-                  {%- endif -%}"
-                  width="120" height="120"
+                  sizes="(max-width: 474px) 420px, (max-width: 1023px) 500px, 640px"
+                  width="640" height="640"
                   onload="this.parentNode.classList.add('lazyloaded')"
                 />
               </figure>
+                
             {%- if block.settings.link != blank -%}
               </a>
             {%- endif -%}
@@ -99,6 +96,7 @@
             {%- render 'lazy-svg', image: 'image', class: 'svg-placeholder svg-placeholder--background svg-placeholder--foreground' -%}
           {%- endunless -%}
         </div>
+
       </div>
 
     {%- endfor %}
@@ -113,14 +111,14 @@
 
 {% schema %}
 {
-  "name": "Columns with img @ bottom",
+  "name": "t:sections.text-columns-with-images.name",
   "class": "mount-css-slider",
   "settings": [
     {
       "type": "text",
       "id": "heading",
       "label": "t:sections.local-extra-words.sections.headings.heading",
-      "default": "Text columns with image at bottom"
+      "default": "Text columns with image"
     },
     {
       "type": "text",
@@ -142,7 +140,7 @@
           "value": "grid"
         }
       ],
-      "default": "grid"
+      "default": "slider"
     },
     {
       "type": "select",
@@ -164,6 +162,16 @@
         }
       ],
       "default": "grid-2 grid-lap-1"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "t:sections.split-extra-words.settings_schema.typography.settings.border_radius",
+      "min": 0,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "default": 200
     }
   ],
   "blocks": [
@@ -179,7 +187,8 @@
         {
           "id": "image",
           "type": "image_picker",
-          "label": "t:sections.gallery.blocks.image.settings.image.label"
+          "label": "t:sections.gallery.blocks.image.settings.image.label",
+          "info": "t:sections.local-extra-words.sections.text-columns-with-images.blocks.image.info"
         },
         {
           "type": "header",
@@ -207,7 +216,7 @@
   ],
   "presets": [
     {
-      "name": "Text columns with images at bottom",
+      "name": "Text column images test",
       "blocks": [
         {
           "type": "image",
@@ -221,6 +230,20 @@
           "settings": {
             "title": "Returns",
             "caption": "Show how much time customers have for testing your products"
+          }
+        },
+        {
+          "type": "image",
+          "settings": {
+            "title": "Pickup",
+            "caption": "Let your customers know about local pickup"
+          }
+        },
+        {
+          "type": "image",
+          "settings": {
+            "title": "Brand",
+            "caption": "Write your brand story and journey"
           }
         }
       ]

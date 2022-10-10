@@ -1625,6 +1625,12 @@ a.button__icon {
   width: 220px;
   height: 220px;
 }
+
+.card__icon-size--1_5-xxlarge {
+  width: 640px;
+  height: 960px;
+}
+
 @media screen and (max-width: 1023px) {
   .card__icon-size--large {
     width: 160px;
@@ -2124,6 +2130,11 @@ div#shopify-section-template--15854220837017__1664873666c3070b26 {
 
 .width100procent {
   width: 100%;
+}
+
+.width100pheight500px {
+  width: 100%;
+  height: 500px;
 }
 
 .full-width-correction {
