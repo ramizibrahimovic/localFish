@@ -243,7 +243,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Radikal_Lokal_schrag.png",
-        "image_position": "right",
+        "image_position": "top no-image",
         "height": "regular",
         "image_crop": true,
         "is_fullwidth": false,
@@ -275,8 +275,8 @@
         "166464636973608d6c-2": {
           "type": "button",
           "settings": {
-            "button_label": "Show more",
-            "link": "",
+            "button_label": "Zu den Bezugsquellen",
+            "link": "shopify:\/\/collections\/all",
             "button_size": "large",
             "button_style": "outline"
           }
@@ -320,10 +320,9 @@
         },
         "16646464833394329e-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Show more",
-            "link": "",
+            "button_label": "Zu den Bezugsquellen",
+            "link": "shopify:\/\/collections\/all",
             "button_size": "large",
             "button_style": "outline"
           }
@@ -350,31 +349,9 @@
     },
     "1664824074bbe13030": {
       "type": "media-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "1664824074c7a493a0-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Local_Fish_Shooting_2-162-2_3978ef75-0ec6-4dd5-b70f-63c7ca3c4c23.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "",
-            "title": "Jetzt unsere Produkte in deiner Region selber abholen und geniessen",
-            "subtitle": "",
-            "link": "shopify:\/\/collections\/all",
-            "button_label": "Show more",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": false
-          }
-        }
-      },
-      "block_order": [
-        "1664824074c7a493a0-0"
-      ],
       "settings": {
-        "heading": "Media with text overlay",
-        "subheading": "Promote your best products",
+        "heading": "",
+        "subheading": "",
         "layout": "grid-1",
         "height": "large",
         "alignment": "horizontal-left align-content--vertical-bottom",
@@ -383,7 +360,8 @@
         "title_size": "h1",
         "subtitle_size": "large",
         "button_size": "large",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": true
       }
     },
     "16646469941d27bf5e": {
@@ -406,8 +384,8 @@
         "16646469944e58fde9-2": {
           "type": "button",
           "settings": {
-            "button_label": "Show more",
-            "link": "",
+            "button_label": "Zu den Bezugsquellen",
+            "link": "shopify:\/\/collections\/all",
             "button_size": "large",
             "button_style": "outline"
           }
@@ -503,7 +481,8 @@
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href=\"#\">offers page<\/a>.<\/p>"
+            "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href=\"#\">offers page<\/a>.<\/p>",
+            "image": "shopify:\/\/shop_images\/Localfish_Region_Zurich_ZieglerDelikatEssen.png"
           }
         },
         "166465195457f8670f-2": {
@@ -514,7 +493,8 @@
             "icon": "no-icon",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href=\"#\">returns policy<\/a>.<\/p>"
+            "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href=\"#\">returns policy<\/a>.<\/p>",
+            "image": "shopify:\/\/shop_images\/Localfish_Region_Ostschweiz_Migros_Quellpark_Kundelfingerhof_91bcea5c-5d70-4ffd-947c-91e5a3d80777.png"
           }
         },
         "cee81f88-6290-4a7b-b3ec-110c8ec33e4e": {
@@ -537,7 +517,7 @@
       ],
       "settings": {
         "heading": "Unsere Produkte beziehen pro Region",
-        "subheading": "",
+        "subheading": "In den einzelnen Regionen gibt es bereits unzählige Restaurants die unsere Produkte führen - Einfach immer nach Localfish fragen.",
         "open_first": true,
         "form_enable": true,
         "form_title": "Bei Fragen zu unseren Produkten"
@@ -630,7 +610,8 @@
         "title_size": "h1",
         "subtitle_size": "large",
         "button_size": "large",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": false
       }
     },
     "16551074833cdf378e": {
@@ -645,10 +626,10 @@
             "caption": "Veredelte Produkte",
             "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
             "subtitle": "",
-            "link": "",
-            "button_label": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_label": "Jetzt mehr entdecken wo erhältlich",
             "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
             "color_hide_borders": false
           }
         },
@@ -677,14 +658,15 @@
         "heading": "",
         "subheading": "",
         "layout": "grid-1",
-        "height": "regular",
+        "height": "large",
         "alignment": "horizontal-left align-content--vertical-bottom",
         "width": "60%",
-        "caption_size": "small",
-        "title_size": "h3",
-        "subtitle_size": "regular",
+        "caption_size": "large",
+        "title_size": "h2",
+        "subtitle_size": "large",
         "button_size": "regular",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": true
       }
     },
     "1655121489db318f96": {
@@ -821,7 +803,8 @@
         "title_size": "h1",
         "subtitle_size": "regular",
         "button_size": "large",
-        "button_style": "outline"
+        "button_style": "outline",
+        "full_width": false
       }
     },
     "1657094048f07fb2a2": {
