@@ -304,7 +304,8 @@
         "title_size": "h1",
         "subtitle_size": "large",
         "button_size": "large",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": false
       }
     },
     "16647331271eba7a93": {
@@ -341,7 +342,8 @@
         "title_size": "h1",
         "subtitle_size": "large",
         "button_size": "large",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": false
       }
     },
     "1664657705cf9a2bea": {
@@ -493,6 +495,108 @@
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": false
       }
+    },
+    "27c243b4-9ae9-45ad-bf11-600312ecd4cb": {
+      "type": "promotion-cards",
+      "blocks": {
+        "template--15854221033625__27c243b4-9ae9-45ad-bf11-600312ecd4cb-1665442169d0716d1d-0": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-10-10_at_17.53.48.png",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "shopify:\/\/collections\/angebot",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        },
+        "template--15854221033625__27c243b4-9ae9-45ad-bf11-600312ecd4cb-1665442169d0716d1d-1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion_f3005cfa-e075-4d95-935b-1d6c21744a4d.png",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15854221033625__27c243b4-9ae9-45ad-bf11-600312ecd4cb-1665442169d0716d1d-0",
+        "template--15854221033625__27c243b4-9ae9-45ad-bf11-600312ecd4cb-1665442169d0716d1d-1"
+      ],
+      "settings": {
+        "heading": "Promotion cards",
+        "subheading": "Share your best offers",
+        "layout": "grid-2 grid-lap-1",
+        "image_aspect_ratio": "0.666667",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline"
+      }
+    },
+    "8ebee2c3-6458-46e9-ac90-d8781f285fdd": {
+      "type": "promotion-cards_reversed",
+      "blocks": {
+        "template--15854221033625__8ebee2c3-6458-46e9-ac90-d8781f285fdd-1665442622b12b53f5-0": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-10-10_at_17.53.48.png",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        },
+        "template--15854221033625__8ebee2c3-6458-46e9-ac90-d8781f285fdd-1665442622b12b53f5-1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion_2c459760-a6a3-4282-8059-be4c5774c1f5.png",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15854221033625__8ebee2c3-6458-46e9-ac90-d8781f285fdd-1665442622b12b53f5-0",
+        "template--15854221033625__8ebee2c3-6458-46e9-ac90-d8781f285fdd-1665442622b12b53f5-1"
+      ],
+      "settings": {
+        "heading": "Promotion cards Reversed",
+        "subheading": "Share your best offers",
+        "layout": "grid-2 grid-lap-1",
+        "image_aspect_ratio": "0.666667",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline"
+      }
     }
   },
   "order": [
@@ -507,6 +611,8 @@
     "16647331271eba7a93",
     "1664657705cf9a2bea",
     "1664656935fd89422a",
-    "7299dd56-20e8-45e6-84f9-1732bf09eb6c"
+    "7299dd56-20e8-45e6-84f9-1732bf09eb6c",
+    "27c243b4-9ae9-45ad-bf11-600312ecd4cb",
+    "8ebee2c3-6458-46e9-ac90-d8781f285fdd"
   ]
 }

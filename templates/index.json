@@ -221,7 +221,7 @@
         "1664646417c1c3c2fa-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
+            "text": "<p>Der einzige Anbieter aus der Region der Egli, Zander und neu auch Wels anbieten kann in unterschiedlichsten Variationen.<\/p>",
             "text_size": "regular"
           }
         },
@@ -248,7 +248,7 @@
         "image_crop": true,
         "is_fullwidth": false,
         "remove_margin": false,
-        "text_alignment": "horizontal-left",
+        "text_alignment": "horizontal-center",
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
@@ -377,8 +377,8 @@
         "16646469944e58fde9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
-            "text_size": "regular"
+            "text": "<p>Wir wollen regionale Produkte und können daher auf den Bruder (Pangasius) verzichten. Hier gibt es lokalen Wels aus der Region.<\/p>",
+            "text_size": "large"
           }
         },
         "16646469944e58fde9-2": {
@@ -397,7 +397,7 @@
         "16646469944e58fde9-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/unbenannt-497.jpg",
+        "image": "shopify:\/\/shop_images\/Fish-fillet-1.webp",
         "image_position": "top",
         "height": "regular",
         "image_crop": true,
@@ -572,7 +572,7 @@
         "image": "shopify:\/\/shop_images\/unbenannt-253.jpg",
         "link": "",
         "open_in_new_window": false,
-        "image_size": "fullwidth"
+        "image_size": "large"
       }
     },
     "166487367770ef35ab": {
@@ -612,61 +612,6 @@
         "button_size": "large",
         "button_style": "solid",
         "full_width": false
-      }
-    },
-    "16551074833cdf378e": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "9a84e64a-a681-486f-b99a-8ca91285e42f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Veredelte Produkte",
-            "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
-            "subtitle": "",
-            "link": "shopify:\/\/collections\/all",
-            "button_label": "Jetzt mehr entdecken wo erhältlich",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": false
-          }
-        },
-        "16551074836af554cd-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_hide_borders": true
-          }
-        }
-      },
-      "block_order": [
-        "9a84e64a-a681-486f-b99a-8ca91285e42f",
-        "16551074836af554cd-1"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "60%",
-        "caption_size": "large",
-        "title_size": "h2",
-        "subtitle_size": "large",
-        "button_size": "regular",
-        "button_style": "solid",
-        "full_width": true
       }
     },
     "1655121489db318f96": {
@@ -851,7 +796,7 @@
           "type": "image",
           "settings": {
             "number": "20km",
-            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion.png",
+            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion_2c459760-a6a3-4282-8059-be4c5774c1f5.png",
             "title": "Localish Ansatz",
             "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
             "link": "shopify:\/\/collections"
@@ -861,7 +806,7 @@
           "type": "image",
           "settings": {
             "number": "2500km",
-            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion.png",
+            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion_f3005cfa-e075-4d95-935b-1d6c21744a4d.png",
             "title": "Import (alte Welt)",
             "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
             "link": ""
@@ -877,6 +822,61 @@
         "subheading": "Wir gehen noch einen Schritt weiter uns produzieren sogar lokal für die Region. Einzigartige Verbesserung des ökoligischen Fussabdrucks",
         "style": "grid",
         "layout": "grid-2 grid-lap-1"
+      }
+    },
+    "16551074833cdf378e": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "9a84e64a-a681-486f-b99a-8ca91285e42f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Veredelte Produkte",
+            "title": "Unsere Fische gibt es auch in \"Chnusprig\"",
+            "subtitle": "",
+            "link": "shopify:\/\/collections\/all",
+            "button_label": "Jetzt mehr entdecken wo erhältlich",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        },
+        "16551074836af554cd-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        }
+      },
+      "block_order": [
+        "9a84e64a-a681-486f-b99a-8ca91285e42f",
+        "16551074836af554cd-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "large",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "regular",
+        "button_style": "solid",
+        "full_width": true
       }
     },
     "16551127939786a43a": {
@@ -914,7 +914,7 @@
         "emphasize_first": true,
         "blog_show_image": true,
         "image_aspect_ratio": "1.33333",
-        "show_view_all": true
+        "show_view_all": false
       }
     },
     "16553621956de397b6": {
@@ -973,13 +973,13 @@
     "1664873666c3070b26",
     "1664654933b30c8632",
     "166487367770ef35ab",
-    "16551074833cdf378e",
     "1655121489db318f96",
     "165406738229739f4d",
     "165650871288cb3c80",
     "1657094048f07fb2a2",
     "166466345284fc6fc1",
     "881922a2-95b9-4a07-a1e7-de0c6421c795",
+    "16551074833cdf378e",
     "16551127939786a43a",
     "16553621956de397b6"
   ]
