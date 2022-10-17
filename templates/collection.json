@@ -268,6 +268,56 @@
         "enable_filtering": true,
         "enable_sorting": true
       }
+    },
+    "24b0c311-1126-4a9f-8ac1-9883f3736451": {
+      "type": "content-toggles",
+      "blocks": {
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-0": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Write some useful information about your shipping details<\/p><p>Link to your <a href='#'>shipping policy<\/a>.<\/p>"
+          }
+        },
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-1": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href='#'>offers page<\/a>.<\/p>"
+          }
+        },
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-2": {
+          "type": "text",
+          "settings": {
+            "title": "Returns details",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href='#'>returns policy<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-0",
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-1",
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-2"
+      ],
+      "settings": {
+        "heading": "Frequently asked question",
+        "subheading": "",
+        "open_first": false,
+        "form_enable": false,
+        "form_title": "Contact form"
+      }
     }
   },
   "order": [
@@ -276,6 +326,7 @@
     "1664824502f5fda87c",
     "1d7601f6-c098-474d-b953-ef5fa435d061",
     "16648245912520a43e",
-    "product-grid"
+    "product-grid",
+    "24b0c311-1126-4a9f-8ac1-9883f3736451"
   ]
 }

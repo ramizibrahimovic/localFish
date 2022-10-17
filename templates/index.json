@@ -670,41 +670,6 @@
         "full_width": false
       }
     },
-    "881922a2-95b9-4a07-a1e7-de0c6421c795": {
-      "type": "text-columns-images-bottom",
-      "blocks": {
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0": {
-          "type": "image",
-          "settings": {
-            "number": "20km",
-            "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion_2c459760-a6a3-4282-8059-be4c5774c1f5.png",
-            "title": "Localish Ansatz",
-            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
-            "link": ""
-          }
-        },
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1": {
-          "type": "image",
-          "settings": {
-            "number": "2500km",
-            "image": "shopify:\/\/shop_images\/Localfish_ImportProduktion_f3005cfa-e075-4d95-935b-1d6c21744a4d.png",
-            "title": "Import (alte Welt)",
-            "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-0",
-        "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1"
-      ],
-      "settings": {
-        "heading": "Lokale Produktion schützt und hat einen enormen Einfluss",
-        "subheading": "Wir gehen noch einen Schritt weiter uns produzieren sogar lokal für die Region. Einzigartige Verbesserung des ökoligischen Fussabdrucks",
-        "style": "grid",
-        "layout": "grid-2 grid-lap-1"
-      }
-    },
     "16551074833cdf378e": {
       "type": "media-with-text-overlay",
       "blocks": {
@@ -973,6 +938,64 @@
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": true
       }
+    },
+    "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9": {
+      "type": "text-columns-numbers-images",
+      "blocks": {
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-0": {
+          "type": "image",
+          "settings": {
+            "number": "",
+            "title": "Shipping",
+            "caption": "Useful information about your shipping details",
+            "link": "",
+            "padding": 100
+          }
+        },
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1": {
+          "type": "image",
+          "settings": {
+            "number": "",
+            "title": "Returns",
+            "caption": "Show how much time customers have for testing your products",
+            "link": "",
+            "padding": 100
+          }
+        },
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-2": {
+          "type": "image",
+          "settings": {
+            "number": "",
+            "title": "Pickup",
+            "caption": "Let your customers know about local pickup",
+            "link": "",
+            "padding": 100
+          }
+        },
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-3": {
+          "type": "image",
+          "settings": {
+            "number": "",
+            "title": "Brand",
+            "caption": "Write your brand story and journey",
+            "link": "",
+            "padding": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-0",
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1",
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-2",
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-3"
+      ],
+      "settings": {
+        "heading": "Text columns with image",
+        "subheading": "Share your best offers",
+        "style": "slider",
+        "layout": "grid-2 grid-lap-1",
+        "border_radius": 200
+      }
     }
   },
   "order": [
@@ -993,12 +1016,12 @@
     "1655121489db318f96",
     "165650871288cb3c80",
     "166466345284fc6fc1",
-    "881922a2-95b9-4a07-a1e7-de0c6421c795",
     "16551074833cdf378e",
     "6b2a8564-9355-4a78-9807-332ff4cf3c4f",
     "f5b41054-cea6-40f3-925b-45114497b7e3",
     "16551127939786a43a",
     "16553621956de397b6",
-    "3123f4af-8735-4114-b7d6-a088bae70128"
+    "3123f4af-8735-4114-b7d6-a088bae70128",
+    "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9"
   ]
 }
