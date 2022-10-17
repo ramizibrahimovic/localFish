@@ -46,7 +46,7 @@
 
       <!-- header blocks -->
 
-      <div class="header-actions header-actions--buttons portable-hide">
+      {% comment %} <div class="header-actions header-actions--buttons portable-hide">
 
         {%- if section.settings.show_search -%}
           <search-form data-resource-type="product,collection{% if settings.predictive_search_include_pages %},page{% endif %}{% if settings.predictive_search_include_articles %},article{% endif %}" style="position:relative">
@@ -111,7 +111,7 @@
           </a>
         </noscript>
 
-      </div>
+      </div> {% endcomment %}
 
       <button data-js-sidebar-handle class="mobile-menu-button hide portable-show" aria-expanded="false" aria-controls="site-menu-sidebar">
         <span class="visually-hidden">{{ 'general.accessibility_labels.open_menu' | t }}</span>
