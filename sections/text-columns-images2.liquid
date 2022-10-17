@@ -67,12 +67,12 @@
 
         </div>
 
-        <div class="card__icon card__icon-size--{% if section.settings.layout == 'grid-3 grid-lap-2' %}large{% else %}regular{% endif %} card__icon-size--1_5-xxlarge" id="element-{{ block.id }}">
+        <div class="card__icon card__icon-size--xlarge" id="element-{{ block.id }}">
           {%- unless block.settings.image == blank -%}
             {%- if block.settings.link != blank -%}
               <a href="{{ block.settings.link }}">
             {%- endif -%}
-              <figure class="lazy-image lazy-image--animation" data-ratio style="padding-top: 100%">
+              <figure class="lazy-image lazy-image--animation" data-ratio style="padding-top: {{ block.settings.padding }}%">
                 <img 
                   src="{{ block.settings.image | image_url: width: 120, height: 180, crop: 'center' }}" alt="{{ block.settings.image.alt | escape }}"
                   srcset="
@@ -86,7 +86,14 @@
                   sizes="(max-width: 474px) 420px, (max-width: 1023px) 500px, 640px"
                   width="640" height="640"
                   onload="this.parentNode.classList.add('lazyloaded')"
+                  class="object-fit_contain"
                 />
+                {% comment %} <img src="{{ block.settings.image | image_url: width: 240, height: 360, crop: 'center' }}" 
+                alt="{{ block.settings.image.alt | escape }}"
+                loading="lazy"
+                width="240" height="360"
+                onload="this.parentNode.classList.add('lazyloaded')"
+                /> {% endcomment %}
               </figure>
                 
             {%- if block.settings.link != blank -%}
@@ -210,6 +217,16 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.image-with-text.blocks.image.settings.url.label"
+        },
+        {
+          "type": "range",
+          "id": "padding",
+          "label": "Correction padding",
+          "min": 0,
+          "max": 200,
+          "step": 2,
+          "unit": "%",
+          "default": 100
         }
       ]
     }

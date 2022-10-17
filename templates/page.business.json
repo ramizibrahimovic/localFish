@@ -81,14 +81,14 @@
         "1664642021e66904d6-0": {
           "type": "title",
           "settings": {
-            "title": "Mit lokalen Produkten mehr Geld verdienen",
-            "title_size": "h2"
+            "title": "Mit lokalen frischen Produkten mehr Geld verdienen",
+            "title_size": "h1"
           }
         },
         "1664642021e66904d6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Kunden sind bereit für Premium Produkte aus der Region deutlich mehr zu bezahlen. Die Angst die Mehrkosten für die besseren Produkte würden auf der eigenen Tasche liegen bleiben sind falsch. Mehr Geld verdienen mit lokalen Produkten und weitere positive Nebeneffekte für die eigene Unternehmung gewinnen.<\/p>",
+            "text": "<p>Die Kunden sind bereit für Premium Produkte aus der Region deutlich mehr zu bezahlen. Die Angst die Mehrkosten für die besseren Produkte würden auf der eigenen Tasche liegen bleiben sind falsch. Mehr Geld verdienen mit lokalen Produkten und weitere positive Nebeneffekte für die eigene Unternehmung gewinnen.<br\/><br\/>Wir haben dazu unzählige Umfragen, Beispiele und echte Fälle die wir gerne teilen. <\/p>",
             "text_size": "regular"
           }
         },
@@ -109,7 +109,101 @@
         "1664642021e66904d6-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSC_1865.jpg",
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "cb35e3c6-d415-4ef6-a19b-fc0057bdf122": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220902553__cb35e3c6-d415-4ef6-a19b-fc0057bdf122-16660119640d7054fb-0": {
+          "type": "title",
+          "settings": {
+            "title": "Fisch nach Mass",
+            "title_size": "h1"
+          }
+        },
+        "template--15854220902553__cb35e3c6-d415-4ef6-a19b-fc0057bdf122-16660119640d7054fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir können als Produzent auf einzigartige Weise auf die Wünsche unserer regionalen Kunden eingehen. <br\/><br\/>Soll es ein extra grosser Zander sein für 2 Personen im Zalzmantel - wir liefern gerne was gewünscht wird!<\/p>",
+            "text_size": "large"
+          }
+        },
+        "template--15854220902553__cb35e3c6-d415-4ef6-a19b-fc0057bdf122-16660119640d7054fb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220902553__cb35e3c6-d415-4ef6-a19b-fc0057bdf122-16660119640d7054fb-0",
+        "template--15854220902553__cb35e3c6-d415-4ef6-a19b-fc0057bdf122-16660119640d7054fb-1",
+        "template--15854220902553__cb35e3c6-d415-4ef6-a19b-fc0057bdf122-16660119640d7054fb-2"
+      ],
+      "settings": {
         "image": "shopify:\/\/shop_images\/unbenannt-313.jpg",
+        "image_position": "left",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "b0335244-4720-4bca-b3d3-e22f979883a7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-0": {
+          "type": "title",
+          "settings": {
+            "title": "Dein Geschmack zählt",
+            "title_size": "h1"
+          }
+        },
+        "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Für besondere Gelegenheiten oder auch einfach weil wir es können - zu jeder Gelegenheit können wir unsere Chnusperli auf Wunsch nach Geschmack machen. Was darf es sein:<br\/><br\/>Safran, Kokos-Curry, Orangen-Chilli oder etwas eigenes?<br\/><br\/><strong>Wir produzieren auf Anfrage bereits ab Mengen von 5kg Chnusperli nach individuellen Bedürfnsissen. <\/strong><br\/><br\/><\/p>",
+            "text_size": "regular"
+          }
+        },
+        "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-0",
+        "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-1",
+        "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Local_Fish_Shooting_2-85.jpg",
         "image_position": "right",
         "height": "regular",
         "image_crop": true,
@@ -128,8 +222,8 @@
         "1664642520a408dd7d-0": {
           "type": "title",
           "settings": {
-            "title": "Der Koch Europameister empfiehlt - eat LocalFisch",
-            "title_size": "h2"
+            "title": "Der Koch Europameister Gabriel Heinjes empfiehlt - eat LocalFisch",
+            "title_size": "h1"
           }
         },
         "1664642520a408dd7d-1": {
@@ -169,8 +263,27 @@
         "color_hide_borders": true
       }
     },
+    "1665837726da995fba": {
+      "type": "apps",
+      "blocks": {
+        "15e2c5a2-58a6-4869-9799-218002a8236f": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 1
+          }
+        }
+      },
+      "block_order": [
+        "15e2c5a2-58a6-4869-9799-218002a8236f"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
     "166474292391664439": {
       "type": "media-with-text-overlay",
+      "disabled": true,
       "blocks": {
         "16647429238ae1154f-0": {
           "type": "image",
@@ -203,7 +316,8 @@
         "title_size": "h1",
         "subtitle_size": "large",
         "button_size": "large",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": true
       }
     },
     "16647438060f4cc76d": {
@@ -216,8 +330,8 @@
             "image_alignment": "50% 50%",
             "video_url": "",
             "caption": "",
-            "title": "Besonderes nur bei Localfish",
-            "subtitle": "Die Kretzer sind wieder da. Bisher galten sie als ausgestorben und aus den lokalen Gewässern gab es keine Möglichkeit mehr welche fangen. Wir bieten hier eine einzigartige lokale Lösung an. Kretzer an unterschiedlichen Standorten gibt es nur bei Localfish. Ob Lyss, Bischofszell oder Rafz. Wir liefern den Restaurants, auf Wunsch, Fisch innert wenigen Stunden nach dem Fang.",
+            "title": "Delikatesse Kretzer - Besonderes nur bei Localfish",
+            "subtitle": "Die Kretzer sind wieder da. Bisher galten sie als ausgestorben und aus den lokalen Gewässern gab es keine Möglichkeit mehr welche fangen. Wir bieten hier eine einzigartige lokale Lösung an. Kretzer an unterschiedlichen Standorten gibt es nur bei Localfish. Ob Lyss, Bischofszell oder Rafz. Wir liefern den Restaurants, auf Wunsch, Fisch innert wenigen Minuten nach dem Fang.",
             "link": "",
             "button_label": "",
             "color_background_main": "rgba(0,0,0,0)",
@@ -240,220 +354,70 @@
         "title_size": "h1",
         "subtitle_size": "large",
         "button_size": "large",
-        "button_style": "solid"
+        "button_style": "solid",
+        "full_width": true
       }
     },
-    "1664735119afaebd85": {
+    "16647331271eba7a93": {
+      "type": "media-with-text-overlay",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h1",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid",
+        "full_width": false
+      }
+    },
+    "0655f400-a5fe-4251-84db-4f7d84fcc6a3": {
       "type": "rich-text",
       "blocks": {
-        "25b9dce1-ee8b-421e-ab9a-ad40d503436a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Import ist ein zentrales Thema. Wir können die Augen davor nicht verschliessen!<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "1664735119f9e2eef5-0": {
+        "template--15854220902553__0655f400-a5fe-4251-84db-4f7d84fcc6a3-16660119640d7054fb-0": {
           "type": "title",
           "settings": {
-            "title": "97% der Fische sind Vielflieger. Nicht unser Geschmack.",
-            "title_size": "h1"
+            "title": "Gibt es noch Wünsche die wir nicht aufgeführt haben?",
+            "title_size": "h2"
           }
         },
-        "1664735119f9e2eef5-2": {
-          "type": "button",
-          "disabled": true,
+        "template--15854220902553__0655f400-a5fe-4251-84db-4f7d84fcc6a3-16660119640d7054fb-1": {
+          "type": "text",
           "settings": {
-            "button_label": "Show more",
-            "link": "",
+            "text": "<p>Wir sind immer bereit neues zu prouzieren oder auszuprobieren. Gerne mit uns dafür in Kontakt tretten.<\/p>",
+            "text_size": "large"
+          }
+        },
+        "template--15854220902553__0655f400-a5fe-4251-84db-4f7d84fcc6a3-16660119640d7054fb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontaktieren",
+            "link": "shopify:\/\/pages\/contact",
             "button_size": "large",
             "button_style": "outline"
           }
         }
       },
       "block_order": [
-        "25b9dce1-ee8b-421e-ab9a-ad40d503436a",
-        "1664735119f9e2eef5-0",
-        "1664735119f9e2eef5-2"
+        "template--15854220902553__0655f400-a5fe-4251-84db-4f7d84fcc6a3-16660119640d7054fb-0",
+        "template--15854220902553__0655f400-a5fe-4251-84db-4f7d84fcc6a3-16660119640d7054fb-1",
+        "template--15854220902553__0655f400-a5fe-4251-84db-4f7d84fcc6a3-16660119640d7054fb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bild7-2.jpg",
-        "image_position": "top",
+        "image_position": "top no-image",
         "height": "regular",
         "image_crop": true,
-        "is_fullwidth": true,
+        "is_fullwidth": false,
         "remove_margin": false,
         "text_alignment": "horizontal-center",
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
-      }
-    },
-    "166473311981a965e3": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "1664733119760b7508-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vlad-hilitanu-QqSIuvz94s8-unsplash-3.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "EINE LOKALE LÖSUNG FÜR EIN GLOBALES PROBLEM",
-            "title": "Unser Weg",
-            "subtitle": "Die Weltbevölkerung wächst und die Essgewohnheiten verändern sich. Zwar bilden sich überall neue Nischen aber qualitativ hochwertigen Produkte gehen immer mehr verloren. Hier setzten wir an und helfen diese auf nachhaltige und langfristige Weise wieder verfügbar zu machen.  Somit bieten wir Alternativen, damit der Endkunde wieder eine Wahl hat. Er soll nicht mehr nur auf Importe angewiesen sein, sondern auch heimische und nachhaltige Produkte geniessen können und somit auch die Umwelt schonen.",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": false
-          }
-        }
-      },
-      "block_order": [
-        "1664733119760b7508-0"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "90%",
-        "caption_size": "large",
-        "title_size": "h1",
-        "subtitle_size": "large",
-        "button_size": "large",
-        "button_style": "solid"
-      }
-    },
-    "16647331271eba7a93": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "16647331271632d34c-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bild7-2.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Import ist ein zentrales Thema",
-            "title": "97% der Fische sind Vielflieger. Nicht unser Geschmack.",
-            "subtitle": "",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": false
-          }
-        }
-      },
-      "block_order": [
-        "16647331271632d34c-0"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "90%",
-        "caption_size": "large",
-        "title_size": "h1",
-        "subtitle_size": "large",
-        "button_size": "large",
-        "button_style": "solid"
-      }
-    },
-    "1664657705cf9a2bea": {
-      "type": "text-columns-images",
-      "blocks": {
-        "1664657705b17540bd-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0.0_a9060417-741d-40d0-8d0d-7e9bbe714fd2.png",
-            "title": "Antibiotika",
-            "caption": "Useful information about your shipping details",
-            "link": ""
-          }
-        },
-        "1664657705b17540bd-1": {
-          "type": "image",
-          "settings": {
-            "title": "Returns",
-            "caption": "Show how much time customers have for testing your products",
-            "link": ""
-          }
-        },
-        "1664657705b17540bd-2": {
-          "type": "image",
-          "settings": {
-            "title": "Pickup",
-            "caption": "Let your customers know about local pickup",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664657705b17540bd-0",
-        "1664657705b17540bd-1",
-        "1664657705b17540bd-2"
-      ],
-      "settings": {
-        "heading": "Text columns with image",
-        "subheading": "Share your best offers",
-        "style": "grid",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200
-      }
-    },
-    "1664656935fd89422a": {
-      "type": "text-columns-icons",
-      "blocks": {
-        "1664656935562b7358-0": {
-          "type": "image",
-          "settings": {
-            "icon": "delivery",
-            "title": "Antibiotika",
-            "caption": "Useful information about your shipping details",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        },
-        "1664656935562b7358-1": {
-          "type": "image",
-          "settings": {
-            "icon": "time-limit",
-            "title": "Wassernutzung",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        },
-        "1664656935562b7358-2": {
-          "type": "image",
-          "settings": {
-            "icon": "store",
-            "title": "C02 Einsparungen pro Jahr",
-            "caption": "Let your customers know about local pickup",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "1664656935562b7358-0",
-        "1664656935562b7358-1",
-        "1664656935562b7358-2"
-      ],
-      "settings": {
-        "heading": "Unsere Story in Zahlen",
-        "subheading": "Mit wenig mehr erzeugen",
-        "style": "grid",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200
+        "color_hide_borders": true
       }
     }
   },
@@ -462,13 +426,13 @@
     "166472154646881456",
     "1664743793f3d50059",
     "16646420216a5ea379",
+    "cb35e3c6-d415-4ef6-a19b-fc0057bdf122",
+    "b0335244-4720-4bca-b3d3-e22f979883a7",
     "16646425203a38f403",
+    "1665837726da995fba",
     "166474292391664439",
     "16647438060f4cc76d",
-    "1664735119afaebd85",
-    "166473311981a965e3",
     "16647331271eba7a93",
-    "1664657705cf9a2bea",
-    "1664656935fd89422a"
+    "0655f400-a5fe-4251-84db-4f7d84fcc6a3"
   ]
 }

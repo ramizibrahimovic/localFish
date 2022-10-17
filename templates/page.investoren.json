@@ -71,8 +71,44 @@
     "16647323317ecec51b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Werde ein Teil der <span style=\"background:#F40176;color:white\">&nbspLösung! <\/span>&nbsp Investiere in die Zukunft!<\/h1>",
+        "custom_liquid": "<\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Werde ein Teil der <span style=\"background:#F40176;color:white\">&nbspLösung! <\/span>&nbsp Investiere in die Zukunft!<\/h1>",
         "full_width": false
+      }
+    },
+    "4ca81c08-ee44-4658-9847-0fb72dfbdc04": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220968089__4ca81c08-ee44-4658-9847-0fb72dfbdc04-1665861220ebf75430-0": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h1"
+          }
+        },
+        "template--15854220968089__4ca81c08-ee44-4658-9847-0fb72dfbdc04-1665861220ebf75430-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir sind das erste und einzige Unternehmen in der Schweiz welches regionale Biodiversität  mit einem Ecosystem kombiniert. <br\/><br\/>Wir sind Zukunft und daher produzieren wir dort wo die Leute leben und Ihre Produkte beziehen. Lokal und nachhaltig ist für uns ein zentraler Fokus den wir leben und in all unsere Produkte implementieren. <br\/><br\/>Wir stehen für Innovationen und neue Wege. Schwimmen gegen den Strom und bewegen diesen Markt in neue Dimensionen. Sei dabei!<strong><br\/><\/strong><\/p><p><strong>Die Schweiz braucht gesunde Lebensmittel, die nachhaltig produziert werden, unter Berücksichtigung der Umwelt und der Menschen.<br\/>Das ist unsere Mission.<\/strong><\/p>",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220968089__4ca81c08-ee44-4658-9847-0fb72dfbdc04-1665861220ebf75430-0",
+        "template--15854220968089__4ca81c08-ee44-4658-9847-0fb72dfbdc04-1665861220ebf75430-1"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": false,
+        "is_fullwidth": false,
+        "remove_margin": true,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
       }
     },
     "a9b7b4ad-f02b-48ef-bf5f-07433304109b": {
@@ -91,7 +127,7 @@
             "button_label": "",
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "#f40176",
-            "color_hide_borders": false
+            "color_hide_borders": true
           }
         }
       },
@@ -110,7 +146,116 @@
         "subtitle_size": "large",
         "button_size": "large",
         "button_style": "solid",
-        "full_width": false
+        "full_width": true
+      }
+    },
+    "e2f0517e-7f3c-42aa-af5a-93ff8f5e54dc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220968089__e2f0517e-7f3c-42aa-af5a-93ff8f5e54dc-1665861220ebf75430-0": {
+          "type": "title",
+          "settings": {
+            "title": "Localfish ist das technologisch und kommerziell fortschrittlichste RAS System in der Schweiz.",
+            "title_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220968089__e2f0517e-7f3c-42aa-af5a-93ff8f5e54dc-1665861220ebf75430-0"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "27f7e919-02be-4ea6-b581-d26ddcf3c1df": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "template--15854220968089__27f7e919-02be-4ea6-b581-d26ddcf3c1df-1665860261af7cde5b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC00207_4f7f9d8f-0ed0-4bc0-b80f-4d8926f440f6.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "Nachdem wir unser Konzept bewiesen und etabliert haben,  beginnen wir mit der Expansion in Zürich. Die nächste Phase dieses Wachstums ist die Finanzierung des Bau in Rafz als zentralles Element in unserer Strategie.",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220968089__27f7e919-02be-4ea6-b581-d26ddcf3c1df-1665860261af7cde5b-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "full_width": true
+      }
+    },
+    "51f40dc6-7b8b-444d-9522-7affca225a9f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220968089__51f40dc6-7b8b-444d-9522-7affca225a9f-1665861220ebf75430-0": {
+          "type": "title",
+          "settings": {
+            "title": "Der Markt für frischen Fisch in der Schweiz beträgt 2022 750 Millionen Franken im Einzelhandel.",
+            "title_size": "h2"
+          }
+        },
+        "4d62d2e9-f8d2-4a12-a8ac-e596c9a1c5f0": {
+          "type": "title",
+          "settings": {
+            "title": "Von diesen sind 97% importiert.",
+            "title_size": "h1"
+          }
+        },
+        "6ff198b2-e5d6-4e78-964a-f17db05246dc": {
+          "type": "title",
+          "settings": {
+            "title": "Bis 2027 wird der Markt auf 910 Millionen anwachsen und die Kunden wünschen sich immer mehr lokale Produkte.",
+            "title_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220968089__51f40dc6-7b8b-444d-9522-7affca225a9f-1665861220ebf75430-0",
+        "4d62d2e9-f8d2-4a12-a8ac-e596c9a1c5f0",
+        "6ff198b2-e5d6-4e78-964a-f17db05246dc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/unbenannt-8-2-3.jpg",
+        "image_position": "left",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
       }
     },
     "ae5324c9-d992-45b4-930c-9aba28d5bcb1": {
@@ -158,60 +303,213 @@
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
+        "color_hide_borders": true
       }
     },
-    "be1146f3-e8bc-408a-8018-25753db0806f": {
-      "type": "text-columns-numbers",
+    "37108e18-1cc1-4285-bf73-ab9556ec4c67": {
+      "type": "media-with-text-overlay",
       "blocks": {
-        "template--15854220968089__be1146f3-e8bc-408a-8018-25753db0806f-1665433461a9ea7e57-0": {
+        "template--15854220968089__37108e18-1cc1-4285-bf73-ab9556ec4c67-1665839101ceac1515-0": {
           "type": "image",
           "settings": {
-            "number": "",
-            "title": "Money",
-            "caption": "we will earn",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/cristian-palmer-XexawgzYOBc-unsplash.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "99.5% unseres Wasser wird wieder verwertet",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
           }
         },
-        "3aeacf29-f5c5-4307-bbf2-c920db600926": {
+        "ab9a07c6-51af-4cc1-84a2-9d15c0280d13": {
           "type": "image",
           "settings": {
-            "number": "",
-            "title": "Text with image",
-            "caption": "Introduce your brand",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/jadon-kelly-Y-4LPhF4giI-unsplash.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "Wir erzeugen einen Grossteil unserer Energie selber",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
           }
         },
-        "b5741680-8aa4-4b5b-8875-df518ca38868": {
+        "template--15854220968089__37108e18-1cc1-4285-bf73-ab9556ec4c67-1665839101ceac1515-1": {
           "type": "image",
           "settings": {
-            "number": "",
-            "title": "Text with image",
-            "caption": "Introduce your brand",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/etienne-girardet-_Fp3YZ7lt-Y-unsplash.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "750 Tonnen Naturdünger erzeugen wir für die umliegenden Farmen",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false
           }
         },
-        "08737036-6512-4dd2-89c9-0fed64daa179": {
+        "b882356f-1ffe-4f71-8f20-d08d9ef40079": {
           "type": "image",
           "settings": {
-            "number": "",
-            "title": "Text with image",
-            "caption": "Introduce your brand",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/DSC_4907.jpg",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "",
+            "title": "Zero Waste - Schweizer Premium Tiernahrung entsteht",
+            "subtitle": "",
+            "link": "",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false
           }
         }
       },
       "block_order": [
-        "template--15854220968089__be1146f3-e8bc-408a-8018-25753db0806f-1665433461a9ea7e57-0",
-        "3aeacf29-f5c5-4307-bbf2-c920db600926",
-        "b5741680-8aa4-4b5b-8875-df518ca38868",
-        "08737036-6512-4dd2-89c9-0fed64daa179"
+        "template--15854220968089__37108e18-1cc1-4285-bf73-ab9556ec4c67-1665839101ceac1515-0",
+        "ab9a07c6-51af-4cc1-84a2-9d15c0280d13",
+        "template--15854220968089__37108e18-1cc1-4285-bf73-ab9556ec4c67-1665839101ceac1515-1",
+        "b882356f-1ffe-4f71-8f20-d08d9ef40079"
       ],
       "settings": {
-        "heading": "Text columns with big number",
-        "subheading": "Share your best numbers!",
-        "style": "grid",
-        "layout": "grid-4 grid-portable-3 grid-lap-2"
+        "heading": "Einige unserer zentralen Elemente als ökologischer Vorreiter",
+        "subheading": "",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "large",
+        "button_style": "solid",
+        "full_width": false
+      }
+    },
+    "2afd33a6-3cd9-4c6e-8baa-83ff161278b5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Localfish <span style=\"background:#F40176;color:white\">&nbspoptimiert <\/span>&nbspRessourcen - unter dem Gesichtspunkt der Umwelt gehören wir weltweit zu den <span style=\"background:#F40176;color:white\">&nbspBesten&nbsp<\/span><\/h1>",
+        "full_width": false
+      }
+    },
+    "e302ad20-2508-401d-8381-004d114a4563": {
+      "type": "rich-text",
+      "blocks": {
+        "fbc1d66e-8048-4c8a-a963-4cfa3f06ebc6": {
+          "type": "title",
+          "settings": {
+            "title": "Flächenverbrauch liegt bei uns bei 0.025qm pro Kilo",
+            "title_size": "h2"
+          }
+        },
+        "bd9b51bd-d1b4-45b6-9df5-3529c6084c13": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wenn wir uns den Flächenverbrauch zu Soja (4qm) und Rindflsiche (30qm - 49qm) anschauen sind wir klar Effizienzweltmeister!<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "template--15854220968089__e302ad20-2508-401d-8381-004d114a4563-1665840320cddc3621-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        },
+        "b11b68d7-1933-4e51-b1d2-df66b3b17517": {
+          "type": "title",
+          "settings": {
+            "title": "Wasser für 1 Kilo Fisch liegt bei sagenhaften 1 Liter Waser",
+            "title_size": "h2"
+          }
+        },
+        "f19ed177-b871-4bc1-9b0f-630b8d0612e0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Soja benötigt 2500 Liter Wasser und bei Rindfleisch geht es hoch bis zu ungalublichen 15'000 Liter. <\/p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "fbc1d66e-8048-4c8a-a963-4cfa3f06ebc6",
+        "bd9b51bd-d1b4-45b6-9df5-3529c6084c13",
+        "template--15854220968089__e302ad20-2508-401d-8381-004d114a4563-1665840320cddc3621-2",
+        "b11b68d7-1933-4e51-b1d2-df66b3b17517",
+        "f19ed177-b871-4bc1-9b0f-630b8d0612e0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/andreas-gucklhorn-mawU2PoJWfU-unsplash.jpg",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": true,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "ed78a2e2-0af4-4b9c-9178-4be2d636bc14": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220968089__ed78a2e2-0af4-4b9c-9178-4be2d636bc14-1665840320cddc3621-0": {
+          "type": "title",
+          "settings": {
+            "title": "Wir erreichen bereits jetzt 10 Ziele als nachhaltige Organisation",
+            "title_size": "h2"
+          }
+        },
+        "template--15854220968089__ed78a2e2-0af4-4b9c-9178-4be2d636bc14-1665840320cddc3621-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Als eines der wenigen Unternehmen erreichen wir bereits 10 Ziele die die UN bis 2030 erreichen möchte. <br\/><br\/><\/p><p><\/p>",
+            "text_size": "regular"
+          }
+        },
+        "template--15854220968089__ed78a2e2-0af4-4b9c-9178-4be2d636bc14-1665840320cddc3621-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220968089__ed78a2e2-0af4-4b9c-9178-4be2d636bc14-1665840320cddc3621-0",
+        "template--15854220968089__ed78a2e2-0af4-4b9c-9178-4be2d636bc14-1665840320cddc3621-1",
+        "template--15854220968089__ed78a2e2-0af4-4b9c-9178-4be2d636bc14-1665840320cddc3621-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sdgIcons.png",
+        "image_position": "left",
+        "height": "large",
+        "image_crop": false,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false
       }
     },
     "fb20b283-8f69-4133-8c4a-717e4a1a686a": {
@@ -238,372 +536,8 @@
       ],
       "settings": {
         "heading": "Für Info Material und Zahlen zur Story",
-        "show_phone": false,
-        "show_subject": false
-      }
-    },
-    "16646420216a5ea379": {
-      "type": "rich-text",
-      "blocks": {
-        "1664642021e66904d6-0": {
-          "type": "title",
-          "settings": {
-            "title": "Mit lokalen Produkten mehr Geld verdienen",
-            "title_size": "h2"
-          }
-        },
-        "1664642021e66904d6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die Kunden sind bereit für Premium Produkte aus der Region deutlich mehr zu bezahlen. Die Angst die Mehrkosten für die besseren Produkte würden auf der eigenen Tasche liegen bleiben sind falsch. Mehr Geld verdienen mit lokalen Produkten und weitere positive Nebeneffekte für die eigene Unternehmung gewinnen.<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "1664642021e66904d6-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "1664642021e66904d6-0",
-        "1664642021e66904d6-1",
-        "1664642021e66904d6-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/unbenannt-313.jpg",
-        "image_position": "right",
-        "height": "regular",
-        "image_crop": true,
-        "is_fullwidth": true,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true
-      }
-    },
-    "16646425203a38f403": {
-      "type": "rich-text",
-      "blocks": {
-        "1664642520a408dd7d-0": {
-          "type": "title",
-          "settings": {
-            "title": "Der Kocheuropameister empfiehlt - eat LocalFisch",
-            "title_size": "h2"
-          }
-        },
-        "1664642520a408dd7d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "1664642520a408dd7d-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "1664642520a408dd7d-0",
-        "1664642520a408dd7d-1",
-        "1664642520a408dd7d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/GB_27174.jpg",
-        "image_position": "right",
-        "height": "large",
-        "image_crop": true,
-        "is_fullwidth": true,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true
-      }
-    },
-    "1664732868ca78090a": {
-      "type": "rich-text",
-      "blocks": {
-        "16647328672255ff86-0": {
-          "type": "title",
-          "settings": {
-            "title": "Unser Weg",
-            "title_size": "h2"
-          }
-        },
-        "459af622-283c-4f56-8cd2-9fda4b439eaf": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>EINE LOKALE LÖSUNG FÜR EIN GLOBALES PROBLEM<\/strong><\/p>",
-            "text_size": "large"
-          }
-        },
-        "16647328672255ff86-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die Weltbevölkerung wächst und die Essgewohnheiten verändern sich. Zwar bilden sich überall neue Nischen aber qualitativ hochwertigen Produkte gehen immer mehr verloren. Hier setzten wir an und helfen diese auf nachhaltige und langfristige Weise wieder verfügbar zu machen.<br\/><br\/>Somit bieten wir Alternativen, damit der Endkunde wieder eine Wahl hat. Er soll nicht mehr nur auf Importe angewiesen sein, sondern auch heimische und nachhaltige Produkte geniessen können und somit auch die Umwelt schonen.<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "16647328672255ff86-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "16647328672255ff86-0",
-        "459af622-283c-4f56-8cd2-9fda4b439eaf",
-        "16647328672255ff86-1",
-        "16647328672255ff86-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/vlad-hilitanu-QqSIuvz94s8-unsplash.jpg",
-        "image_position": "left",
-        "height": "large",
-        "image_crop": true,
-        "is_fullwidth": true,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true
-      }
-    },
-    "1664735119afaebd85": {
-      "type": "rich-text",
-      "blocks": {
-        "25b9dce1-ee8b-421e-ab9a-ad40d503436a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Import ist ein zentrales Thema. Wir können die Augen davor nicht verschliessen!<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "1664735119f9e2eef5-0": {
-          "type": "title",
-          "settings": {
-            "title": "97% der Fische sind Vielflieger. Nicht unser Geschmack.",
-            "title_size": "h1"
-          }
-        },
-        "1664735119f9e2eef5-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "25b9dce1-ee8b-421e-ab9a-ad40d503436a",
-        "1664735119f9e2eef5-0",
-        "1664735119f9e2eef5-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Bild7-2.jpg",
-        "image_position": "top",
-        "height": "regular",
-        "image_crop": true,
-        "is_fullwidth": true,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
-      }
-    },
-    "166473311981a965e3": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "1664733119760b7508-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vlad-hilitanu-QqSIuvz94s8-unsplash-3.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "EINE LOKALE LÖSUNG FÜR EIN GLOBALES PROBLEM",
-            "title": "Unser Weg",
-            "subtitle": "Die Weltbevölkerung wächst und die Essgewohnheiten verändern sich. Zwar bilden sich überall neue Nischen aber qualitativ hochwertigen Produkte gehen immer mehr verloren. Hier setzten wir an und helfen diese auf nachhaltige und langfristige Weise wieder verfügbar zu machen.  Somit bieten wir Alternativen, damit der Endkunde wieder eine Wahl hat. Er soll nicht mehr nur auf Importe angewiesen sein, sondern auch heimische und nachhaltige Produkte geniessen können und somit auch die Umwelt schonen.",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": false
-          }
-        }
-      },
-      "block_order": [
-        "1664733119760b7508-0"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "90%",
-        "caption_size": "large",
-        "title_size": "h1",
-        "subtitle_size": "large",
-        "button_size": "large",
-        "button_style": "solid",
-        "full_width": false
-      }
-    },
-    "16647331271eba7a93": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "16647331271632d34c-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bild7-2.jpg",
-            "image_alignment": "50% 50%",
-            "video_url": "",
-            "caption": "Import ist ein zentrales Thema",
-            "title": "97% der Fische sind Vielflieger. Nicht unser Geschmack.",
-            "subtitle": "",
-            "link": "",
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": false
-          }
-        }
-      },
-      "block_order": [
-        "16647331271632d34c-0"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-left align-content--vertical-bottom",
-        "width": "90%",
-        "caption_size": "large",
-        "title_size": "h1",
-        "subtitle_size": "large",
-        "button_size": "large",
-        "button_style": "solid",
-        "full_width": false
-      }
-    },
-    "1664657705cf9a2bea": {
-      "type": "text-columns-images",
-      "blocks": {
-        "1664657705b17540bd-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0.0_a9060417-741d-40d0-8d0d-7e9bbe714fd2.png",
-            "title": "Antibiotika",
-            "caption": "Useful information about your shipping details",
-            "link": ""
-          }
-        },
-        "1664657705b17540bd-1": {
-          "type": "image",
-          "settings": {
-            "title": "Returns",
-            "caption": "Show how much time customers have for testing your products",
-            "link": ""
-          }
-        },
-        "1664657705b17540bd-2": {
-          "type": "image",
-          "settings": {
-            "title": "Pickup",
-            "caption": "Let your customers know about local pickup",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664657705b17540bd-0",
-        "1664657705b17540bd-1",
-        "1664657705b17540bd-2"
-      ],
-      "settings": {
-        "heading": "Text columns with image",
-        "subheading": "Share your best offers",
-        "style": "grid",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200
-      }
-    },
-    "1664656935fd89422a": {
-      "type": "text-columns-icons",
-      "blocks": {
-        "1664656935562b7358-0": {
-          "type": "image",
-          "settings": {
-            "icon": "delivery",
-            "title": "Antibiotika",
-            "caption": "Useful information about your shipping details",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        },
-        "1664656935562b7358-1": {
-          "type": "image",
-          "settings": {
-            "icon": "time-limit",
-            "title": "Wassernutzung",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        },
-        "1664656935562b7358-2": {
-          "type": "image",
-          "settings": {
-            "icon": "store",
-            "title": "C02 Einsparungen pro Jahr",
-            "caption": "Let your customers know about local pickup",
-            "link": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "1664656935562b7358-0",
-        "1664656935562b7358-1",
-        "1664656935562b7358-2"
-      ],
-      "settings": {
-        "heading": "Unsere Story in Zahlen",
-        "subheading": "Mit wenig mehr erzeugen",
-        "style": "grid",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200
+        "show_phone": true,
+        "show_subject": true
       }
     }
   },
@@ -611,17 +545,16 @@
     "main",
     "166472154646881456",
     "16647323317ecec51b",
+    "4ca81c08-ee44-4658-9847-0fb72dfbdc04",
     "a9b7b4ad-f02b-48ef-bf5f-07433304109b",
+    "e2f0517e-7f3c-42aa-af5a-93ff8f5e54dc",
+    "27f7e919-02be-4ea6-b581-d26ddcf3c1df",
+    "51f40dc6-7b8b-444d-9522-7affca225a9f",
     "ae5324c9-d992-45b4-930c-9aba28d5bcb1",
-    "be1146f3-e8bc-408a-8018-25753db0806f",
-    "fb20b283-8f69-4133-8c4a-717e4a1a686a",
-    "16646420216a5ea379",
-    "16646425203a38f403",
-    "1664732868ca78090a",
-    "1664735119afaebd85",
-    "166473311981a965e3",
-    "16647331271eba7a93",
-    "1664657705cf9a2bea",
-    "1664656935fd89422a"
+    "37108e18-1cc1-4285-bf73-ab9556ec4c67",
+    "2afd33a6-3cd9-4c6e-8baa-83ff161278b5",
+    "e302ad20-2508-401d-8381-004d114a4563",
+    "ed78a2e2-0af4-4b9c-9178-4be2d636bc14",
+    "fb20b283-8f69-4133-8c4a-717e4a1a686a"
   ]
 }

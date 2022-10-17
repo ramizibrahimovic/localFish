@@ -17,8 +17,15 @@
         "166482506832076e21-0": {
           "type": "title",
           "settings": {
-            "title": "Bereits in dieser Phase sind unsere Produkte an mehreren Standorten verfügbar für euch - Online Store coming soon",
+            "title": "Bereits in dieser Phase sind unsere Produkte an mehreren Standorten verfügbar für euch",
             "title_size": "h2"
+          }
+        },
+        "e0f6077c-cd76-45df-9e55-1e414a8d1a0f": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Online Store coming soon!<\/strong><\/p>",
+            "text_size": "large"
           }
         },
         "166482506832076e21-1": {
@@ -42,6 +49,7 @@
       },
       "block_order": [
         "166482506832076e21-0",
+        "e0f6077c-cd76-45df-9e55-1e414a8d1a0f",
         "166482506832076e21-1",
         "166482506832076e21-2"
       ],
@@ -153,17 +161,17 @@
         "template--15854220542105__1d7601f6-c098-474d-b953-ef5fa435d061-1665324897a1b2423d-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_1931-2.jpg",
+            "image": "shopify:\/\/shop_images\/wels-backofen.jpg",
             "image_alignment": "50% 50%",
             "video_url": "",
-            "caption": "Ab sofort lokal erhältlich - einzigartig in der Schweiz",
+            "caption": "Ab sofort lokal vorbestellbar - einzigartig in der Schweiz",
             "title": "Wels aus der Region Ostschweiz",
-            "subtitle": "Write about it",
+            "subtitle": "",
             "link": "",
             "button_label": "",
             "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#f40176",
-            "color_hide_borders": false
+            "color_text_main": "#ffffff",
+            "color_hide_borders": true
           }
         }
       },

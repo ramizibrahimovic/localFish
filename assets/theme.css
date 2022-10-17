@@ -1626,9 +1626,9 @@ a.button__icon {
   height: 220px;
 }
 
-.card__icon-size--1_5-xxlarge {
-  width: 640px;
-  height: 960px;
+.card__icon-size--xlarge {
+  width: 410px;
+  height: 610px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -1636,11 +1636,19 @@ a.button__icon {
     width: 160px;
     height: 160px;
   }
+  .card__icon-size--xlarge {
+    width: 315px;
+    height: 465px;
+  }
 }
 @media screen and (max-width: 474px) {
   .card__icon {
     width: 120px;
     height: 120px;
+  }
+  .card__icon-size--xlarge {
+    width: 220px;
+    height: 320px;
   }
 }
 .card__icon--is-img img {
@@ -2160,4 +2168,8 @@ div#shopify-section-template--15854220837017__1664873666c3070b26 {
 
 .no-padding {
   padding: 0 !important;
+}
+
+.object-fit_contain {
+  object-fit: contain !important;
 }

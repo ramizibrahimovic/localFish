@@ -7,6 +7,44 @@
         "center": false
       }
     },
+    "55579b9e-27b7-4998-b85e-cf1cb96343c3": {
+      "type": "text-columns-images2",
+      "blocks": {
+        "template--15854221033625__55579b9e-27b7-4998-b85e-cf1cb96343c3-16655048149bed30b2-0": {
+          "type": "image",
+          "settings": {
+            "number": "10'000",
+            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production.png",
+            "title": "Shipping",
+            "caption": "Useful information about your shipping details",
+            "link": "",
+            "padding": 144
+          }
+        },
+        "template--15854221033625__55579b9e-27b7-4998-b85e-cf1cb96343c3-16655048149bed30b2-1": {
+          "type": "image",
+          "settings": {
+            "number": "99'999",
+            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production1_04a13ff6-2007-4eb4-b18d-57690dcfec82.png",
+            "title": "Returns",
+            "caption": "Show how much time customers have for testing your productsShow how much time customers have for testing your productsShow how much time customers have for testing your productsShow how much time customers have for testing your products",
+            "link": "",
+            "padding": 152
+          }
+        }
+      },
+      "block_order": [
+        "template--15854221033625__55579b9e-27b7-4998-b85e-cf1cb96343c3-16655048149bed30b2-0",
+        "template--15854221033625__55579b9e-27b7-4998-b85e-cf1cb96343c3-16655048149bed30b2-1"
+      ],
+      "settings": {
+        "heading": "Text columns with image",
+        "subheading": "Share your best offers",
+        "style": "grid",
+        "layout": "grid-2 grid-lap-1",
+        "border_radius": 0
+      }
+    },
     "166472154646881456": {
       "type": "slideshow",
       "blocks": {
@@ -601,6 +639,7 @@
   },
   "order": [
     "main",
+    "55579b9e-27b7-4998-b85e-cf1cb96343c3",
     "166472154646881456",
     "16647323317ecec51b",
     "16646420216a5ea379",

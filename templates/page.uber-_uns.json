@@ -205,6 +205,13 @@
         "color_hide_borders": true
       }
     },
+    "6fe48b10-dad9-490d-a266-1a75b55e0050": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Wir schützen  <span style=\"background:#F40176;color:white\">&nbspdie Zukunft für Mensch und Umwelt <\/span><\/h1>",
+        "full_width": false
+      }
+    },
     "166474086672a32e22": {
       "type": "slideshow",
       "blocks": {
@@ -483,6 +490,7 @@
     "166473311981a965e3",
     "1664740157e88bb2fa",
     "1664740271923e0506",
+    "6fe48b10-dad9-490d-a266-1a75b55e0050",
     "166474086672a32e22",
     "16647403892691d192",
     "16647331271eba7a93",

@@ -6,14 +6,14 @@
         "1653646142fd3f3126-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unbenannt-449.jpg",
-            "image_alignment": "0% 100%",
+            "image": "shopify:\/\/shop_images\/unbenannt-15-2.jpg",
+            "image_alignment": "100% 50%",
             "caption": "Die nachhaltige Unterwasser Revolution",
             "title": "Lokaler Premium Fisch aus der Region - Gut für Mensch und Umwelt",
             "link": "",
             "button_label": "",
             "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "#ffffff"
+            "color_text_main": "#000000"
           }
         },
         "8dc03db9-0c8c-4d53-9307-7ca64aaf4ad4": {
@@ -32,11 +32,12 @@
         "01ea6ca8-52b4-4bcd-9465-f25930cd3648": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/wels-backofen.jpg",
             "image_alignment": "50% 50%",
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "link": "",
-            "button_label": "Show more",
+            "caption": "",
+            "title": "Schweizer Wels als Sensation",
+            "link": "shopify:\/\/collections\/all",
+            "button_label": "Jetzt bestellen",
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "rgba(0,0,0,0)"
           }
@@ -288,7 +289,7 @@
         "166464636973608d6c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/unbenannt-449.jpg",
+        "image": "shopify:\/\/shop_images\/unbenannt-20-2.jpg",
         "image_position": "right",
         "height": "large",
         "image_crop": true,
@@ -469,7 +470,7 @@
             "icon": "map-marker",
             "button_label": "",
             "button_link": "",
-            "body": "<p>in diesen Regionen sind unsere lokalen Egli aus Lyss verfügbar für Endkunden in allen grossen Migros Filialen mit einer Fischtheke. <br\/><br\/>Für Gastro\/Metzgereien etc sind die Produkte erhätlich durch Merat<br\/><br\/>Selbstverständlich können unsere Egli auch in unserer Farm direkt bezogen werden in:<br\/><strong>Localfish AG<br\/>Schachenweg 24<br\/>Lyss<\/strong><\/p>",
+            "body": "<p>in diesen Regionen sind unsere <strong>lokalen Egli aus Lyss<\/strong> verfügbar für Endkunden in allen grossen Migros Filialen mit einer Fischtheke. <br\/><br\/>Für Gastro\/Metzgereien etc sind die Produkte erhätlich durch Merat<br\/><br\/>Selbstverständlich können unsere Egli auch in unserer Farm direkt bezogen werden in:<br\/><strong>Localfish AG<br\/>Schachenweg 24<br\/>Lyss<br\/><br\/><br\/><\/strong>In den Restaurants sind wir auch anzutreffen - Einfach immer nach Localfish fragen.<strong><br\/><\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/Localfish_Region_Bern_Solothurn_Aarau_Migros_Aaare_Merat_a1df1158-f798-463c-a44b-790c3e577524.png"
           }
         },
@@ -477,11 +478,11 @@
           "type": "text",
           "settings": {
             "title": "Region Zürich",
-            "subtitle": "Question subtitle",
-            "icon": "no-icon",
+            "subtitle": "",
+            "icon": "map-marker",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href=\"#\">offers page<\/a>.<\/p>",
+            "body": "<p>in diesen Regionen sind unsere <strong>lokalen Egli und Zander aus Rafz<\/strong> verfügbar als Filet oder Chnsuperli. Für Endkunden erhältlich bei Ziegler Delikat Essen in Oerlikon und Neerach. <br\/><br\/>Für Gastro\/Metzgereien etc sind die Produkte erhätlich durch Ziegler Delikat Essen.<br\/><br\/>Selbstverständlich können unsere Egli und Zander auch in unserer Farm direkt bezogen werden in:<br\/><strong>Localfish AG<br\/>Industriestrasse 14<br\/>Rafz<\/strong><\/p><p><strong>Oder im Pick Up Store <br\/>Localfish AG<br\/>Weinbergstrasse 148<br\/>8006 Zürich<br\/><br\/><br\/><\/strong>In den Restaurants sind wir auch anzutreffen - Einfach immer nach Localfish fragen.<strong><br\/><\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/Localfish_Region_Zurich_ZieglerDelikatEssen.png"
           }
         },
@@ -489,11 +490,11 @@
           "type": "text",
           "settings": {
             "title": "Region Ostschweiz",
-            "subtitle": "Question subtitle",
-            "icon": "no-icon",
+            "subtitle": "",
+            "icon": "map-marker",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href=\"#\">returns policy<\/a>.<\/p>",
+            "body": "<p>in diesen Regionen sind unsere <strong>lokalen Egli, Zander und Wels<\/strong> verfügbar als Filet oder Chnsuperli. Für Endkunden erhältlich in der Migros Ostschweiz an allen Fischtheken (ab November). <br\/><br\/>Für Gastro\/Metzgereien etc sind die Produkte erhätlich durch Quellpark Kundelfingerhof.<br\/><br\/>Selbstverständlich können unsere Egli, Zander und Wels auch in unserer Farm direkt bezogen werden in:<br\/><strong>Localfish AG<br\/>Espenstrasse 1<br\/>Bischofszell<\/strong><\/p><p><strong><br\/>Hier bitte immer auf Vorbestellung!<br\/><br\/><br\/><\/strong>In den Restaurants sind wir auch anzutreffen - Einfach immer nach Localfish fragen.<strong><br\/><\/strong><\/p>",
             "image": "shopify:\/\/shop_images\/Localfish_Region_Ostschweiz_Migros_Quellpark_Kundelfingerhof_91bcea5c-5d70-4ffd-947c-91e5a3d80777.png"
           }
         },
@@ -501,11 +502,11 @@
           "type": "text",
           "settings": {
             "title": "Alle anderen Regionen",
-            "subtitle": "Question subtitle",
-            "icon": "no-icon",
+            "subtitle": "",
+            "icon": "map-marker",
             "button_label": "",
             "button_link": "",
-            "body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>"
+            "body": "<p>Hier sind wir aktuell im Aufbau mit unserem Sortiment. <br\/><br\/>Bei Gastronomie bitte sich bei Merat melden die unsere Produkte führen oder beschaffen können. <br\/><br\/>Selbstverständlich helfen wir immer mit dem Beschaffen unter info@localfish.ch<\/p>"
           }
         }
       },
@@ -517,7 +518,7 @@
       ],
       "settings": {
         "heading": "Unsere Produkte beziehen pro Region",
-        "subheading": "In den einzelnen Regionen gibt es bereits unzählige Restaurants die unsere Produkte führen - Einfach immer nach Localfish fragen.",
+        "subheading": "",
         "open_first": true,
         "form_enable": true,
         "form_title": "Bei Fragen zu unseren Produkten"
@@ -564,15 +565,6 @@
         "subheading": "Wir erzeugen mit wenig sehr viel und schützen Mensch, Tier und Umwelt",
         "style": "grid",
         "layout": "grid-3 grid-lap-2"
-      }
-    },
-    "1664654933b30c8632": {
-      "type": "image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/unbenannt-253.jpg",
-        "link": "",
-        "open_in_new_window": false,
-        "image_size": "large"
       }
     },
     "166487367770ef35ab": {
@@ -654,87 +646,6 @@
         "color_hide_borders": true
       }
     },
-    "165406738229739f4d": {
-      "type": "promotion-cards",
-      "disabled": true,
-      "blocks": {
-        "073cf35e-7647-4a69-aa57-2b56e9b42637": {
-          "type": "card",
-          "settings": {
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
-            "link": "",
-            "button_label": "Show more",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_borders_main": "rgba(0,0,0,0)",
-            "color_hide_borders": false
-          }
-        },
-        "16540673826052f668-0": {
-          "type": "card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/unbenannt-449.jpg",
-            "caption": "",
-            "title": "Ganze Fische",
-            "subtitle": "Ein ganzer Zander oder Egli auf dem Grill oder im Ofen sind seltene Momente. Bei uns ist dies jederzeit möglich.",
-            "link": "",
-            "button_label": "Show more",
-            "color_background_main": "#f4ede1",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#e1e1e1",
-            "color_hide_borders": true
-          }
-        },
-        "16540673826052f668-1": {
-          "type": "card",
-          "settings": {
-            "caption": "Show a product",
-            "title": "Superfoods",
-            "subtitle": "",
-            "link": "",
-            "button_label": "Show more",
-            "color_background_main": "#f4e5e5",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#e1e1e1",
-            "color_hide_borders": true
-          }
-        },
-        "16540673826052f668-2": {
-          "type": "card",
-          "settings": {
-            "caption": "",
-            "title": "Write your story",
-            "subtitle": "",
-            "link": "",
-            "button_label": "Show more",
-            "color_background_main": "#e5edf1",
-            "color_text_main": "rgba(0,0,0,0)",
-            "color_borders_main": "#e1e1e1",
-            "color_hide_borders": true
-          }
-        }
-      },
-      "block_order": [
-        "073cf35e-7647-4a69-aa57-2b56e9b42637",
-        "16540673826052f668-0",
-        "16540673826052f668-1",
-        "16540673826052f668-2"
-      ],
-      "settings": {
-        "heading": "Unsere Produkte",
-        "subheading": "Direkt vom Produzenten - bereits in dieser frühen Phase bieten wir ein breites Sortiment an premium Fischen an.",
-        "layout": "grid-2 grid-lap-1",
-        "image_aspect_ratio": "1",
-        "text_alignment": "text-align--center",
-        "caption_size": "large",
-        "title_size": "h3",
-        "subtitle_size": "regular",
-        "button_size": "large",
-        "button_style": "outline"
-      }
-    },
     "165650871288cb3c80": {
       "type": "media-with-text-overlay",
       "settings": {
@@ -750,36 +661,6 @@
         "button_size": "large",
         "button_style": "outline",
         "full_width": false
-      }
-    },
-    "1657094048f07fb2a2": {
-      "type": "marquee",
-      "disabled": true,
-      "blocks": {
-        "16570940482780d791-0": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "<p>Write a big bold statement about your brand!<\/p>"
-          }
-        },
-        "17541091-3633-48b6-97e0-ca55f3bf4a9f": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "<p>Introduce your latest promotions.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16570940482780d791-0",
-        "17541091-3633-48b6-97e0-ca55f3bf4a9f"
-      ],
-      "settings": {
-        "scroll_direction": "left",
-        "speed": 20,
-        "pause_on_hover": true,
-        "remove_top_margin": false,
-        "color_background_main": "#f4ecf4",
-        "color_text_main": "#000000"
       }
     },
     "166466345284fc6fc1": {
@@ -799,7 +680,7 @@
             "image": "shopify:\/\/shop_images\/Localfish_lokaleProduktion_2c459760-a6a3-4282-8059-be4c5774c1f5.png",
             "title": "Localish Ansatz",
             "caption": "Weniger Kilometer, weniger Abfall, weniger Umweltverschmutzung Durch die Verlagerung der landwirtschaftlichen Produktion in die Nähe des Wohnorts wird die Lieferkette verkürzt und der Transportweg und die Verschwendung von Lebensmitteln drastisch reduziert.  *Entfernung von Niederhasli nach Zürich Stadt",
-            "link": "shopify:\/\/collections"
+            "link": ""
           }
         },
         "template--15837788307609__881922a2-95b9-4a07-a1e7-de0c6421c795-1664925872a88ddb40-1": {
@@ -875,6 +756,107 @@
         "title_size": "h2",
         "subtitle_size": "large",
         "button_size": "regular",
+        "button_style": "solid",
+        "full_width": true
+      }
+    },
+    "6b2a8564-9355-4a78-9807-332ff4cf3c4f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220837017__6b2a8564-9355-4a78-9807-332ff4cf3c4f-1665836370cec94eaf-0": {
+          "type": "title",
+          "settings": {
+            "title": "Neuheit - Schweizer Tierfutter von Localfisch",
+            "title_size": "h2"
+          }
+        },
+        "template--15854220837017__6b2a8564-9355-4a78-9807-332ff4cf3c4f-1665836370cec94eaf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Im Sinne unserer Zero Waste Strategie und dem Fokus auf Circular Economy kommen wir mit einer komplett neuen Produktelinie auf den Markt - unser Fisch auch für unsere Fellfreunde!<\/strong><\/p>",
+            "text_size": "large"
+          }
+        },
+        "template--15854220837017__6b2a8564-9355-4a78-9807-332ff4cf3c4f-1665836370cec94eaf-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220837017__6b2a8564-9355-4a78-9807-332ff4cf3c4f-1665836370cec94eaf-0",
+        "template--15854220837017__6b2a8564-9355-4a78-9807-332ff4cf3c4f-1665836370cec94eaf-1",
+        "template--15854220837017__6b2a8564-9355-4a78-9807-332ff4cf3c4f-1665836370cec94eaf-2"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "f5b41054-cea6-40f3-925b-45114497b7e3": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "01265aae-e959-429d-9871-6906274649c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Localfish_PetFood_Schweizer_Hundefutter.png",
+            "image_alignment": "50% 50%",
+            "video_url": "",
+            "caption": "NEUHEIT",
+            "title": "Schweizer Premium Tiernahrung aus 100% lokalem Fisch",
+            "subtitle": "",
+            "link": "https:\/\/www.localpetfood.ch",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        },
+        "template--15854220837017__f5b41054-cea6-40f3-925b-45114497b7e3-1665835244dee1bedd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pouch_packaging_Fishing_for_Love_Black_v12_-_Tom_Version_Bauchlappen.png",
+            "image_alignment": "50% 100%",
+            "video_url": "",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "link": "https:\/\/www.localpetfood.ch",
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true
+          }
+        }
+      },
+      "block_order": [
+        "01265aae-e959-429d-9871-6906274649c9",
+        "template--15854220837017__f5b41054-cea6-40f3-925b-45114497b7e3-1665835244dee1bedd-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "large",
+        "title_size": "h2",
+        "subtitle_size": "large",
+        "button_size": "large",
         "button_style": "solid",
         "full_width": true
       }
@@ -955,6 +937,51 @@
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": true
       }
+    },
+    "3123f4af-8735-4114-b7d6-a088bae70128": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0": {
+          "type": "title",
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2"
+          }
+        },
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0",
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1",
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-2"
+      ],
+      "settings": {
+        "image_position": "right",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false
+      }
     }
   },
   "order": [
@@ -971,16 +998,16 @@
     "16646519418074bd9d",
     "166465195588f1aa51",
     "1664873666c3070b26",
-    "1664654933b30c8632",
     "166487367770ef35ab",
     "1655121489db318f96",
-    "165406738229739f4d",
     "165650871288cb3c80",
-    "1657094048f07fb2a2",
     "166466345284fc6fc1",
     "881922a2-95b9-4a07-a1e7-de0c6421c795",
     "16551074833cdf378e",
+    "6b2a8564-9355-4a78-9807-332ff4cf3c4f",
+    "f5b41054-cea6-40f3-925b-45114497b7e3",
     "16551127939786a43a",
-    "16553621956de397b6"
+    "16553621956de397b6",
+    "3123f4af-8735-4114-b7d6-a088bae70128"
   ]
 }
