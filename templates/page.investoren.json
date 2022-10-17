@@ -398,7 +398,7 @@
     "2afd33a6-3cd9-4c6e-8baa-83ff161278b5": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Localfish <span style=\"background:#F40176;color:white\">&nbspoptimiert <\/span>&nbspRessourcen - unter dem Gesichtspunkt der Umwelt gehören wir weltweit zu den <span style=\"background:#F40176;color:white\">&nbspBesten&nbsp<\/span><\/h1>",
+        "custom_liquid": "<\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";>Localfish <span style=\"background:#F40176;color:white\">&nbspschützt <\/span>&nbspRessourcen - unter dem Gesichtspunkt der Umwelt gehören wir weltweit zu den <span style=\"background:#F40176;color:white\">&nbspBesten&nbsp<\/span><\/h1>",
         "full_width": false
       }
     },

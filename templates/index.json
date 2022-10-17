@@ -465,54 +465,6 @@
         "full_width": false
       }
     },
-    "16646519418074bd9d": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "16646519411755340b-0": {
-          "type": "title",
-          "settings": {
-            "title": "Bei uns gibt es auch Fisch in knusprig",
-            "title_size": "h2"
-          }
-        },
-        "16646519411755340b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
-            "text_size": "regular"
-          }
-        },
-        "16646519411755340b-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "16646519411755340b-0",
-        "16646519411755340b-1",
-        "16646519411755340b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
-        "image_position": "top",
-        "height": "large",
-        "image_crop": true,
-        "is_fullwidth": true,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
-      }
-    },
     "166465195588f1aa51": {
       "type": "content-toggles",
       "disabled": true,
@@ -683,6 +635,91 @@
       "settings": {
         "custom_liquid": "<\/br><\/br><\/br><\/br><\/br><\/br><\/br><\/br><h1 style=\"font-family:'Playfair Display', serif;text-align:center\";><span style=\"background:#F40176;color:white\">&nbspWeniger <\/span>ist mehr! Lediglich 3% werden in der Schweiz gefangen<\/h1>",
         "full_width": false
+      }
+    },
+    "bfbae9d2-bdd3-423e-af9a-ae397ba39a67": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-0": {
+          "type": "title",
+          "settings": {
+            "title": "Der Unterschied von lokal produziert zu  Import",
+            "title_size": "h2"
+          }
+        },
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ein zentraller Faktor bei Food Sicherheit und Schutz der Umwelt. Am Beispiel von Wels (Pangasius) aus Vietnam anstelle von lokal hergestellten Produkten aus der Schweiz. <\/p>",
+            "text_size": "regular"
+          }
+        },
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-0",
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-1",
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-2"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9": {
+      "type": "text-columns-numbers-images",
+      "blocks": {
+        "0536704d-9d7a-4319-a4fe-282f2f281ed9": {
+          "type": "image",
+          "settings": {
+            "number": "25 km",
+            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production.png",
+            "title": "Lokal produziert vor der Haustüre",
+            "caption": "Die Verlagerung der Produktion in die Nähe des Wohnorts verkürzt die Versorgungskette und führt zu einer drastischen Verringerung der Transportwege und der Lebensmittelverschwendung. Zudem reduzieren wir Kühlleistungen und CO2 und schützen die Umwelt.",
+            "link": "",
+            "padding": 100
+          }
+        },
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1": {
+          "type": "image",
+          "settings": {
+            "number": "9500 km",
+            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production1_04a13ff6-2007-4eb4-b18d-57690dcfec82.png",
+            "title": "In entfernten Ländern produziert",
+            "caption": "Hohes Risiko für Food Sicherheit gepaart mit enormer Energie und umweltschädlichen Transporten. Die Produkte sind nicht frisch und sind Monate auf dem Schiff unterwegs oder mit dem Flugzeug und erzeugen enorme C02 Werte.",
+            "link": "",
+            "padding": 100
+          }
+        }
+      },
+      "block_order": [
+        "0536704d-9d7a-4319-a4fe-282f2f281ed9",
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "style": "grid",
+        "layout": "grid-2 grid-lap-1",
+        "border_radius": 0
       }
     },
     "16551074833cdf378e": {
@@ -917,90 +954,6 @@
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": true
       }
-    },
-    "bfbae9d2-bdd3-423e-af9a-ae397ba39a67": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-0": {
-          "type": "title",
-          "settings": {
-            "title": "Der Unterschied von lokal produziert zu  Import",
-            "title_size": "h2"
-          }
-        },
-        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ein zentraller Faktor bei Food Sicherheit und Schutz der Umwelt. Am Beispiel von Wels (Pangasius) aus Vietnam anstelle von lokal hergestellten Produkten aus der Schweiz. <\/p>",
-            "text_size": "regular"
-          }
-        },
-        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-0",
-        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-1",
-        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-2"
-      ],
-      "settings": {
-        "image_position": "top no-image",
-        "height": "regular",
-        "image_crop": true,
-        "is_fullwidth": false,
-        "remove_margin": false,
-        "text_alignment": "horizontal-center",
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true
-      }
-    },
-    "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9": {
-      "type": "text-columns-numbers-images",
-      "blocks": {
-        "0536704d-9d7a-4319-a4fe-282f2f281ed9": {
-          "type": "image",
-          "settings": {
-            "number": "25 km",
-            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production.png",
-            "title": "Text with image",
-            "caption": "Introduce your brand",
-            "link": "",
-            "padding": 100
-          }
-        },
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1": {
-          "type": "image",
-          "settings": {
-            "number": "9500 km",
-            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production1_04a13ff6-2007-4eb4-b18d-57690dcfec82.png",
-            "title": "Returns",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "padding": 100
-          }
-        }
-      },
-      "block_order": [
-        "0536704d-9d7a-4319-a4fe-282f2f281ed9",
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "style": "grid",
-        "layout": "grid-2 grid-lap-1",
-        "border_radius": 0
-      }
     }
   },
   "order": [
@@ -1016,18 +969,17 @@
     "16646469941d27bf5e",
     "3123f4af-8735-4114-b7d6-a088bae70128",
     "1666022861d63fe9d5",
-    "16646519418074bd9d",
     "166465195588f1aa51",
     "1664873666c3070b26",
     "166487367770ef35ab",
     "165650871288cb3c80",
     "166466345284fc6fc1",
+    "bfbae9d2-bdd3-423e-af9a-ae397ba39a67",
+    "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9",
     "16551074833cdf378e",
     "6b2a8564-9355-4a78-9807-332ff4cf3c4f",
     "f5b41054-cea6-40f3-925b-45114497b7e3",
     "16551127939786a43a",
-    "16553621956de397b6",
-    "bfbae9d2-bdd3-423e-af9a-ae397ba39a67",
-    "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9"
+    "16553621956de397b6"
   ]
 }

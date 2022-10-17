@@ -679,6 +679,8 @@ search-form {
     text-align: center;
     padding: 0 1.5rem;
     justify-content: center;
+    /* customization */
+    padding-right: 3.5rem;
   }
   .site-header .mobile-cart-button {
     order: 2;

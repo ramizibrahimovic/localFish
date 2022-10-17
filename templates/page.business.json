@@ -89,7 +89,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Die Kunden sind bereit für Premium Produkte aus der Region deutlich mehr zu bezahlen. Die Angst die Mehrkosten für die besseren Produkte würden auf der eigenen Tasche liegen bleiben sind falsch. Mehr Geld verdienen mit lokalen Produkten und weitere positive Nebeneffekte für die eigene Unternehmung gewinnen.<br\/><br\/>Wir haben dazu unzählige Umfragen, Beispiele und echte Fälle die wir gerne teilen. <\/p>",
-            "text_size": "regular"
+            "text_size": "large"
           }
         },
         "1664642021e66904d6-2": {
@@ -183,7 +183,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Für besondere Gelegenheiten oder auch einfach weil wir es können - zu jeder Gelegenheit können wir unsere Chnusperli auf Wunsch nach Geschmack machen. Was darf es sein:<br\/><br\/>Safran, Kokos-Curry, Orangen-Chilli oder etwas eigenes?<br\/><br\/><strong>Wir produzieren auf Anfrage bereits ab Mengen von 5kg Chnusperli nach individuellen Bedürfnsissen. <\/strong><br\/><br\/><\/p>",
-            "text_size": "regular"
+            "text_size": "large"
           }
         },
         "template--15854220902553__b0335244-4720-4bca-b3d3-e22f979883a7-16660119640d7054fb-2": {
@@ -218,6 +218,7 @@
     },
     "16646425203a38f403": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1664642520a408dd7d-0": {
           "type": "title",
@@ -265,6 +266,7 @@
     },
     "1665837726da995fba": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "15e2c5a2-58a6-4869-9799-218002a8236f": {
           "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",

@@ -24,7 +24,7 @@
         "e0f6077c-cd76-45df-9e55-1e414a8d1a0f": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Online Store coming soon!<\/strong><\/p>",
+            "text": "<p><strong>Wir arbeiten bereits daran euch die Delikatessen nach Hause zu senden - Online Store coming soon!<\/strong><\/p>",
             "text_size": "large"
           }
         },
@@ -193,53 +193,6 @@
         "full_width": false
       }
     },
-    "16648245912520a43e": {
-      "type": "stores-map",
-      "blocks": {
-        "1664824591e625784c-0": {
-          "type": "store",
-          "settings": {
-            "store_name": "My Store",
-            "store_address": "<p>123 John Doe Street<br\/>Your Town, YT 12345<\/p><p> <\/p><p><strong>Store Hours<br\/><\/strong>Sun: Closed<br\/>Mon-Fri: 9:00 - 17:00<br\/>Sat: 10:00 - 13:00<\/p>",
-            "image_aspect_ratio": "1.33333",
-            "store_map_latitude": "46.7834818",
-            "store_map_longitude": "23.5464733"
-          }
-        },
-        "4bd7f557-0d20-4c43-b20e-3dc48e5bd224": {
-          "type": "store",
-          "settings": {
-            "store_name": "My Store",
-            "store_address": "<p>123 John Doe Street<br\/>Your Town, YT 12345<\/p><p> <\/p><p><strong>Store Hours<br\/><\/strong>Sun: Closed<br\/>Mon-Fri: 9:00 - 17:00<br\/>Sat: 10:00 - 13:00<\/p>",
-            "image_aspect_ratio": "1.33333",
-            "store_map_latitude": "46.7834818",
-            "store_map_longitude": "23.5464733"
-          }
-        },
-        "3694240c-8a5c-4422-9ed6-875c9bbe9ef4": {
-          "type": "store",
-          "settings": {
-            "store_name": "My Store",
-            "store_address": "<p>123 John Doe Street<br\/>Your Town, YT 12345<\/p><p> <\/p><p><strong>Store Hours<br\/><\/strong>Sun: Closed<br\/>Mon-Fri: 9:00 - 17:00<br\/>Sat: 10:00 - 13:00<\/p>",
-            "image_aspect_ratio": "1.33333",
-            "store_map_latitude": "46.7834818",
-            "store_map_longitude": "23.5464733"
-          }
-        }
-      },
-      "block_order": [
-        "1664824591e625784c-0",
-        "4bd7f557-0d20-4c43-b20e-3dc48e5bd224",
-        "3694240c-8a5c-4422-9ed6-875c9bbe9ef4"
-      ],
-      "settings": {
-        "heading": "Unsere Produkte bereits beziehen und für Mensch und Umwelt sorgen",
-        "subheading": "In den einzelnen Regionen gibt es bereits unzählige Restaurants die unsere Produkte führen - Einfach immer nach Localfish fragen.",
-        "map_enable": true,
-        "map_zoom": 16,
-        "map_style": "standard"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "disabled": true,
@@ -340,7 +293,6 @@
     "166482506880e8947c",
     "1664824502f5fda87c",
     "1d7601f6-c098-474d-b953-ef5fa435d061",
-    "16648245912520a43e",
     "product-grid",
     "24b0c311-1126-4a9f-8ac1-9883f3736451"
   ]
