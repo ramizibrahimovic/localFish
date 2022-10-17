@@ -944,14 +944,14 @@
         "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0": {
           "type": "title",
           "settings": {
-            "title": "Talk about your brand",
-            "title_size": "h2"
+            "title": "Der Koch Europameister Gabriel Heinjes empfiehlt - eat LocalFisch",
+            "title_size": "h1"
           }
         },
         "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.<\/p>",
+            "text": "<p>\"Ich möchte die Herkunft beim Fisch genau so kennen wie beim Gemüse, Fleisch etc. Bisher war dies so nicht möglich. Mit Localfish habe ich einen Partner wo ich meinen Fisch selber aussuchen und abholen kann. Diese Story und frische schätzen meine Kunden und dahinter kann ich zu 100% stehen\"<\/p>",
             "text_size": "regular"
           }
         },
@@ -971,16 +971,17 @@
         "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/GB_27174.jpg",
         "image_position": "right",
-        "height": "regular",
+        "height": "large",
         "image_crop": true,
-        "is_fullwidth": false,
+        "is_fullwidth": true,
         "remove_margin": false,
         "text_alignment": "horizontal-center",
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false
+        "color_hide_borders": true
       }
     }
   },
