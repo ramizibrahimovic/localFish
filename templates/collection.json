@@ -304,12 +304,24 @@
             "button_link": "",
             "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href='#'>returns policy<\/a>.<\/p>"
           }
+        },
+        "cd1ce4c9-1be9-4427-8da4-50fa7e6aff96": {
+          "type": "text",
+          "settings": {
+            "title": "Question title",
+            "subtitle": "Question subtitle",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Write a complete answer to the most frequent questions that your customers might have, such as important product information, shipping policies, payment issues or returns.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-0",
         "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-1",
-        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-2"
+        "template--15854220542105__24b0c311-1126-4a9f-8ac1-9883f3736451-1666019007cfbc1051-2",
+        "cd1ce4c9-1be9-4427-8da4-50fa7e6aff96"
       ],
       "settings": {
         "heading": "Frequently asked question",
