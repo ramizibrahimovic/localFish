@@ -411,6 +411,60 @@
         "color_hide_borders": true
       }
     },
+    "3123f4af-8735-4114-b7d6-a088bae70128": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0": {
+          "type": "title",
+          "settings": {
+            "title": "Der Koch Europameister Gabriel Heinjes empfiehlt - eat LocalFisch",
+            "title_size": "h1"
+          }
+        },
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Ich möchte die Herkunft beim Fisch genau so kennen wie beim Gemüse, Fleisch etc. Bisher war dies so nicht möglich. Mit Localfish habe ich einen Partner wo ich meinen Fisch selber aussuchen und abholen kann. Diese Story und frische schätzen meine Kunden und dahinter kann ich zu 100% stehen\"<\/p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0",
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GB_27174.jpg",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": true,
+        "remove_margin": false,
+        "text_alignment": "horizontal-center",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true
+      }
+    },
+    "1666022861d63fe9d5": {
+      "type": "apps",
+      "blocks": {
+        "6d1148f9-d406-4e84-9e1c-5c473523f862": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 1
+          }
+        }
+      },
+      "block_order": [
+        "6d1148f9-d406-4e84-9e1c-5c473523f862"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
     "16646519418074bd9d": {
       "type": "rich-text",
       "disabled": true,
@@ -461,6 +515,7 @@
     },
     "166465195588f1aa51": {
       "type": "content-toggles",
+      "disabled": true,
       "blocks": {
         "166465195457f8670f-0": {
           "type": "text",
@@ -604,46 +659,6 @@
         "button_size": "large",
         "button_style": "solid",
         "full_width": false
-      }
-    },
-    "1655121489db318f96": {
-      "type": "shop-the-look",
-      "disabled": true,
-      "blocks": {
-        "1655121489da0fd0f2-0": {
-          "type": "price",
-          "settings": {}
-        },
-        "1655121489da0fd0f2-1": {
-          "type": "title",
-          "settings": {}
-        },
-        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede": {
-          "type": "rating",
-          "settings": {}
-        },
-        "1655121489da0fd0f2-2": {
-          "type": "quick_buy",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "1655121489da0fd0f2-0",
-        "1655121489da0fd0f2-1",
-        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede",
-        "1655121489da0fd0f2-2"
-      ],
-      "settings": {
-        "heading": "Shop the look",
-        "subheading": "",
-        "image": "shopify:\/\/shop_images\/DSC_1969.jpg",
-        "product_list": [
-          "schwiizer-egli",
-          "schwiizer-zander"
-        ],
-        "color_background_main": "#efefef",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true
       }
     },
     "165650871288cb3c80": {
@@ -903,34 +918,44 @@
         "color_hide_borders": true
       }
     },
-    "3123f4af-8735-4114-b7d6-a088bae70128": {
+    "bfbae9d2-bdd3-423e-af9a-ae397ba39a67": {
       "type": "rich-text",
       "blocks": {
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0": {
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-0": {
           "type": "title",
           "settings": {
-            "title": "Der Koch Europameister Gabriel Heinjes empfiehlt - eat LocalFisch",
-            "title_size": "h1"
+            "title": "Der Unterschied von lokal produziert zu  Import",
+            "title_size": "h2"
           }
         },
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1": {
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>\"Ich möchte die Herkunft beim Fisch genau so kennen wie beim Gemüse, Fleisch etc. Bisher war dies so nicht möglich. Mit Localfish habe ich einen Partner wo ich meinen Fisch selber aussuchen und abholen kann. Diese Story und frische schätzen meine Kunden und dahinter kann ich zu 100% stehen\"<\/p>",
+            "text": "<p>Ein zentraller Faktor bei Food Sicherheit und Schutz der Umwelt. Am Beispiel von Wels (Pangasius) aus Vietnam anstelle von lokal hergestellten Produkten aus der Schweiz. <\/p>",
             "text_size": "regular"
+          }
+        },
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "button_size": "large",
+            "button_style": "outline"
           }
         }
       },
       "block_order": [
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0",
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1"
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-0",
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-1",
+        "template--15854220837017__bfbae9d2-bdd3-423e-af9a-ae397ba39a67-1666021895c4de04f1-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/GB_27174.jpg",
-        "image_position": "right",
-        "height": "large",
+        "image_position": "top no-image",
+        "height": "regular",
         "image_crop": true,
-        "is_fullwidth": true,
+        "is_fullwidth": false,
         "remove_margin": false,
         "text_alignment": "horizontal-center",
         "color_background_main": "rgba(0,0,0,0)",
@@ -942,12 +967,13 @@
     "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9": {
       "type": "text-columns-numbers-images",
       "blocks": {
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-0": {
+        "0536704d-9d7a-4319-a4fe-282f2f281ed9": {
           "type": "image",
           "settings": {
-            "number": "",
-            "title": "Shipping",
-            "caption": "Useful information about your shipping details",
+            "number": "25 km",
+            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production.png",
+            "title": "Text with image",
+            "caption": "Introduce your brand",
             "link": "",
             "padding": 100
           }
@@ -955,46 +981,25 @@
         "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1": {
           "type": "image",
           "settings": {
-            "number": "",
+            "number": "9500 km",
+            "image": "shopify:\/\/shop_images\/Localfish_Import_vs._Local_Production1_04a13ff6-2007-4eb4-b18d-57690dcfec82.png",
             "title": "Returns",
             "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "padding": 100
-          }
-        },
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-2": {
-          "type": "image",
-          "settings": {
-            "number": "",
-            "title": "Pickup",
-            "caption": "Let your customers know about local pickup",
-            "link": "",
-            "padding": 100
-          }
-        },
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-3": {
-          "type": "image",
-          "settings": {
-            "number": "",
-            "title": "Brand",
-            "caption": "Write your brand story and journey",
             "link": "",
             "padding": 100
           }
         }
       },
       "block_order": [
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-0",
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1",
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-2",
-        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-3"
+        "0536704d-9d7a-4319-a4fe-282f2f281ed9",
+        "template--15854220837017__8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9-1666018441e7717027-1"
       ],
       "settings": {
-        "heading": "Text columns with image",
-        "subheading": "Share your best offers",
-        "style": "slider",
+        "heading": "",
+        "subheading": "",
+        "style": "grid",
         "layout": "grid-2 grid-lap-1",
-        "border_radius": 200
+        "border_radius": 0
       }
     }
   },
@@ -1009,11 +1014,12 @@
     "1664646483cf0e45e2",
     "1664824074bbe13030",
     "16646469941d27bf5e",
+    "3123f4af-8735-4114-b7d6-a088bae70128",
+    "1666022861d63fe9d5",
     "16646519418074bd9d",
     "166465195588f1aa51",
     "1664873666c3070b26",
     "166487367770ef35ab",
-    "1655121489db318f96",
     "165650871288cb3c80",
     "166466345284fc6fc1",
     "16551074833cdf378e",
@@ -1021,7 +1027,7 @@
     "f5b41054-cea6-40f3-925b-45114497b7e3",
     "16551127939786a43a",
     "16553621956de397b6",
-    "3123f4af-8735-4114-b7d6-a088bae70128",
+    "bfbae9d2-bdd3-423e-af9a-ae397ba39a67",
     "8fee0ecf-fddc-4c72-8bc3-f9d99a26c3c9"
   ]
 }

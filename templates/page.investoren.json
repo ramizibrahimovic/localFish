@@ -514,26 +514,6 @@
     },
     "fb20b283-8f69-4133-8c4a-717e4a1a686a": {
       "type": "contact-form",
-      "blocks": {
-        "template--15854220968089__fb20b283-8f69-4133-8c4a-717e4a1a686a-16654321960b16537e-0": {
-          "type": "text",
-          "settings": {
-            "title": "Mailing Address",
-            "content": "<p>Write some useful information about your business, contact information or links to various FAQ pages.<\/p>"
-          }
-        },
-        "template--15854220968089__fb20b283-8f69-4133-8c4a-717e4a1a686a-16654321960b16537e-1": {
-          "type": "text",
-          "settings": {
-            "title": "Have a question?",
-            "content": "<p>Link to some useful pages that your customers might want to know about.<\/p><p><a href='#'>Returns & Exchanges<\/a><a href='#'>General Questions<\/a><a href='#'>Returns & Exchanges<\/a><a href='#'>Shipping Policies<\/a>.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15854220968089__fb20b283-8f69-4133-8c4a-717e4a1a686a-16654321960b16537e-0",
-        "template--15854220968089__fb20b283-8f69-4133-8c4a-717e4a1a686a-16654321960b16537e-1"
-      ],
       "settings": {
         "heading": "Für Info Material und Zahlen zur Story",
         "show_phone": true,
