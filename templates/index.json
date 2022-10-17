@@ -954,21 +954,11 @@
             "text": "<p>\"Ich möchte die Herkunft beim Fisch genau so kennen wie beim Gemüse, Fleisch etc. Bisher war dies so nicht möglich. Mit Localfish habe ich einen Partner wo ich meinen Fisch selber aussuchen und abholen kann. Diese Story und frische schätzen meine Kunden und dahinter kann ich zu 100% stehen\"<\/p>",
             "text_size": "regular"
           }
-        },
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Show more",
-            "link": "",
-            "button_size": "large",
-            "button_style": "outline"
-          }
         }
       },
       "block_order": [
         "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-0",
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1",
-        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-2"
+        "template--15854220837017__3123f4af-8735-4114-b7d6-a088bae70128-1666017622f121d21b-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/GB_27174.jpg",
